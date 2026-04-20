@@ -5,7 +5,7 @@
     "description": "An intelligent AI-powered assistant built to support university students with academic advising, mental health resources, and campus navigation. Utilizes RAG pipelines and LLMs for contextual, empathetic responses.",
     "techStack": ["Python", "LangChain", "GPT-4", "RAG", "Flask", "React", "PostgreSQL"],
     "impact": "Reduced student wait times by 60% and handled 2,000+ queries in pilot deployment.",
-    "github": "https://github.com/abhiramvarma/ai-student-care",
+    "github": "https://github.com/isjustabhi/ai-student-care",
     "status": "production",
     "category": "AI/ML"
   },
