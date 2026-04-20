@@ -1,38 +1,38 @@
 [
   {
     "id": 1,
-    "role": "Graduate Data Scientist",
+    "role": "Data Analyst / Graduate Assistant",
     "company": "University of Arizona",
     "location": "Tucson, AZ",
-    "period": "2023 — Present",
-    "description": "Leading data science initiatives across research departments. Building ML pipelines, conducting statistical analyses, and developing predictive models for academic research projects.",
-    "highlights": ["Machine Learning Pipelines", "Statistical Analysis", "Research Collaboration"]
+    "period": "Aug 2025 — Present",
+    "description": "Leading large-scale data analysis and reporting initiatives across Housing & Residential Life. Building ETL pipelines, developing Tableau dashboards, and applying statistical and predictive modeling on datasets exceeding 250,000 records to improve student outcomes and operational efficiency.",
+    "highlights": ["Tableau Dashboards", "ETL Pipelines", "Predictive Modeling"]
   },
   {
     "id": 2,
-    "role": "AI/NLP Research Assistant",
+    "role": "Graduate Research Assistant (AI / NLP)",
     "company": "University of Arizona",
     "location": "Tucson, AZ",
-    "period": "2023 — Present",
-    "description": "Researching Retrieval-Augmented Generation (RAG) systems and Large Language Models. Developing novel approaches to knowledge extraction and domain-specific fine-tuning.",
-    "highlights": ["RAG Systems", "LLM Fine-tuning", "Knowledge Extraction"]
+    "period": "Jan 2025 — Aug 2025",
+    "description": "Developed Retrieval-Augmented Generation (RAG) systems using LLMs, FAISS, and Python. Built end-to-end NLP pipelines for knowledge extraction, semantic search, and question-answering, contributing to scalable AI applications and research publications.",
+    "highlights": ["RAG Systems", "LLMs", "NLP Pipelines"]
   },
   {
     "id": 3,
-    "role": "Data Analyst Intern",
-    "company": "Industry Partner",
-    "location": "Remote",
-    "period": "2022 — 2023",
-    "description": "Analyzed large-scale datasets to derive business insights. Created automated reporting dashboards and implemented data quality frameworks that reduced errors by 35%.",
-    "highlights": ["Data Analysis", "Dashboard Development", "Automation"]
+    "role": "Healthcare Data Analyst Intern",
+    "company": "University of Arizona",
+    "location": "Tucson, AZ",
+    "period": "May 2025 — Aug 2025",
+    "description": "Analyzed multi-source healthcare datasets and built Power BI and Tableau dashboards covering mental health, AOD, and utilization metrics. Developed automated ETL workflows and data validation frameworks, reducing reporting errors by 40% and improving decision-making.",
+    "highlights": ["Power BI", "Healthcare Analytics", "Data Quality"]
   },
   {
     "id": 4,
     "role": "Data Analyst",
     "company": "MeeBuddy",
-    "location": "India",
-    "period": "2021 — 2022",
-    "description": "Built analytics infrastructure from ground up. Designed KPI tracking systems, developed user behavior models, and created data-driven product recommendations.",
-    "highlights": ["Analytics Infrastructure", "KPI Systems", "User Modeling"]
+    "location": "Remote (India)",
+    "period": "Jan 2023 — Aug 2024",
+    "description": "Built analytics infrastructure from the ground up, including SQL pipelines, KPI tracking systems, and dashboards. Performed user behavior analysis and delivered data-driven insights that improved product performance and operational efficiency.",
+    "highlights": ["Analytics Infrastructure", "SQL Pipelines", "User Modeling"]
   }
 ]
