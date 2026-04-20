@@ -2,37 +2,37 @@
   {
     "id": 1,
     "role": "Data Analyst / Graduate Assistant",
-    "company": "University of Arizona",
+    "company": "University of Arizona — Housing & Residential Life",
     "location": "Tucson, AZ",
     "period": "Aug 2025 — Present",
-    "description": "Leading large-scale data analysis and reporting initiatives across Housing & Residential Life. Building ETL pipelines, developing Tableau dashboards, and applying statistical and predictive modeling on datasets exceeding 250,000 records to improve student outcomes and operational efficiency.",
-    "highlights": ["Tableau Dashboards", "ETL Pipelines", "Predictive Modeling"]
+    "description": "Designing 15+ interactive Tableau dashboards for real-time analytics across Housing, Campus Health, and Dean of Students. Built automated pipelines reducing manual effort by 60%, engineered ETL workflows processing 250K+ records, and partner with senior leadership on data-driven institutional planning.",
+    "highlights": ["Tableau Server", "ETL Pipelines", "Python & SQL", "Leadership Analytics"]
   },
   {
     "id": 2,
-    "role": "Graduate Research Assistant (AI / NLP)",
-    "company": "University of Arizona",
+    "role": "Healthcare Data Analyst Intern",
+    "company": "University of Arizona — Campus Health Services",
     "location": "Tucson, AZ",
-    "period": "Jan 2025 — Aug 2025",
-    "description": "Developed Retrieval-Augmented Generation (RAG) systems using LLMs, FAISS, and Python. Built end-to-end NLP pipelines for knowledge extraction, semantic search, and question-answering, contributing to scalable AI applications and research publications.",
-    "highlights": ["RAG Systems", "LLMs", "NLP Pipelines"]
+    "period": "May 2025 — Aug 2025",
+    "description": "Designed comprehensive Power BI dashboard suite covering Demographics, Mental Health, AOD, Physical Health, Sexual Health, and Utilization analytics. Built end-to-end data pipelines from raw CSV to production dashboards published to the Campus Health website.",
+    "highlights": ["Power BI", "Healthcare Analytics", "Data Modeling", "Production Dashboards"]
   },
   {
     "id": 3,
-    "role": "Healthcare Data Analyst Intern",
-    "company": "University of Arizona",
+    "role": "Graduate Research Assistant (AI / NLP)",
+    "company": "University of Arizona — PRISM Lab",
     "location": "Tucson, AZ",
-    "period": "May 2025 — Aug 2025",
-    "description": "Analyzed multi-source healthcare datasets and built Power BI and Tableau dashboards covering mental health, AOD, and utilization metrics. Developed automated ETL workflows and data validation frameworks, reducing reporting errors by 40% and improving decision-making.",
-    "highlights": ["Power BI", "Healthcare Analytics", "Data Quality"]
+    "period": "Jan 2025 — Aug 2025",
+    "description": "Developed RAG-based full-stack application using LLMs, OpenAI embeddings, and FAISS for semantic search. Leveraged 70B-parameter LLMs for zero-shot knowledge extraction. Collaborated with Intel researchers and co-authored publication on LLM-assisted hardware vulnerability discovery.",
+    "highlights": ["RAG / LLMs", "FAISS", "Intel Collaboration", "Published Research"]
   },
   {
     "id": 4,
     "role": "Data Analyst",
-    "company": "MeeBuddy",
-    "location": "Remote (India)",
+    "company": "MeeBuddy — Rural India's Digital Buddy",
+    "location": "Remote",
     "period": "Jan 2023 — Aug 2024",
-    "description": "Built analytics infrastructure from the ground up, including SQL pipelines, KPI tracking systems, and dashboards. Performed user behavior analysis and delivered data-driven insights that improved product performance and operational efficiency.",
-    "highlights": ["Analytics Infrastructure", "SQL Pipelines", "User Modeling"]
+    "description": "Performed EDA on user engagement and service adoption using Python and SQL. Built Tableau dashboards tracking KPIs across rural user segments. Analyzed regional demand patterns during COVID-19 to enable targeted service expansion in underserved communities.",
+    "highlights": ["EDA & Python", "Tableau Dashboards", "Rural Tech", "COVID-19 Analysis"]
   }
 ]

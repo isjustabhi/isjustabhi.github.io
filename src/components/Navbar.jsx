@@ -33,8 +33,6 @@ export default function Navbar() {
         <a href="#hero" className="font-[Orbitron] text-lg font-bold tracking-wider text-neon-cyan neon-text">
           AV<span className="text-white/60">.</span>
         </a>
-
-        {/* Desktop */}
         <div className="hidden md:flex items-center gap-1">
           {navItems.map((item, i) => (
             <motion.a
@@ -50,35 +48,16 @@ export default function Navbar() {
             </motion.a>
           ))}
         </div>
-
-        {/* Mobile toggle */}
-        <button
-          onClick={() => setMobileOpen(!mobileOpen)}
-          className="md:hidden p-2 text-text-muted hover:text-neon-cyan transition-colors"
-        >
+        <button onClick={() => setMobileOpen(!mobileOpen)} className="md:hidden p-2 text-text-muted hover:text-neon-cyan transition-colors">
           {mobileOpen ? <X size={22} /> : <Menu size={22} />}
         </button>
       </div>
-
-      {/* Mobile menu */}
       <AnimatePresence>
         {mobileOpen && (
-          <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: 'auto' }}
-            exit={{ opacity: 0, height: 0 }}
-            className="md:hidden glass-strong border-t border-white/5"
-          >
+          <motion.div initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: 'auto' }} exit={{ opacity: 0, height: 0 }} className="md:hidden glass-strong border-t border-white/5">
             <div className="px-4 py-4 flex flex-col gap-2">
               {navItems.map(item => (
-                <a
-                  key={item.label}
-                  href={item.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="px-4 py-3 text-sm text-text-muted hover:text-neon-cyan hover:bg-white/5 rounded-lg transition-all"
-                >
-                  {item.label}
-                </a>
+                <a key={item.label} href={item.href} onClick={() => setMobileOpen(false)} className="px-4 py-3 text-sm text-text-muted hover:text-neon-cyan hover:bg-white/5 rounded-lg transition-all">{item.label}</a>
               ))}
             </div>
           </motion.div>

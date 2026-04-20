@@ -5,38 +5,98 @@
     "description": "An intelligent AI-powered assistant built to support university students with academic advising, mental health resources, and campus navigation. Utilizes RAG pipelines and LLMs for contextual, empathetic responses.",
     "techStack": ["Python", "LangChain", "GPT-4", "RAG", "Flask", "React", "PostgreSQL"],
     "impact": "Reduced student wait times by 60% and handled 2,000+ queries in pilot deployment.",
-    "github": "https://abhiramvarma.vercel.app/",
+    "github": "https://ai-student-care.vercel.app/",
     "status": "production",
-    "category": "AI/ML"
+    "category": "AI-Powered Apps"
   },
   {
     "id": 2,
-    "title": "Automated Analytics System",
-    "description": "End-to-end automated data pipeline and analytics dashboard that processes raw data streams, applies ML models for anomaly detection, and generates real-time visual reports for stakeholders.",
-    "techStack": ["Python", "SQL", "Tableau", "AWS", "Airflow", "Scikit-learn"],
-    "impact": "Automated 40+ hours of manual reporting weekly, improved data accuracy by 35%.",
-    "github": "https://github.com/abhiramvarma/automated-analytics",
+    "title": "DiaBuddy AI — Diabetes Companion",
+    "description": "Full-stack AI diabetes management app with glucose/food/activity tracking, RAG-powered chat grounded in ADA/NIH/CDC guidelines, dashboards with trend charts, time-in-range analysis, estimated A1C, and personalized insights.",
+    "techStack": ["React", "Supabase", "pgvector", "Gemini AI", "RAG", "TanStack", "PostgreSQL"],
+    "impact": "End-to-end health tracking with AI chat citing 28+ curated medical knowledge chunks.",
+    "github": "https://dia-wise-ai.lovable.app",
     "status": "production",
-    "category": "Data Engineering"
+    "category": "AI-Powered Apps"
   },
   {
     "id": 3,
+    "title": "Bio Scholar AI — Biomedical Research Assistant",
+    "description": "RAG-powered biomedical research tool for querying scientific literature. Features paper summarizer via PubMed PMID/URL, structured summaries with key findings, methods, and clinical relevance.",
+    "techStack": ["React", "RAG", "NLP", "PubMed API", "Gemini AI", "Supabase", "pgvector"],
+    "impact": "Instant structured summaries of biomedical papers with entity extraction and clinical insights.",
+    "github": "https://bio-cite-scribe.lovable.app",
+    "status": "production",
+    "category": "AI-Powered Apps"
+  },
+  {
+    "id": 4,
     "title": "NLP Research — RAG & LLMs",
     "description": "Advanced research on Retrieval-Augmented Generation systems, fine-tuning large language models for domain-specific knowledge extraction and question-answering tasks.",
     "techStack": ["Python", "Transformers", "FAISS", "LangChain", "PyTorch", "HuggingFace"],
     "impact": "Published findings improving retrieval accuracy by 28% over baseline approaches.",
-    "github": "https://github.com/abhiramvarma/nlp-rag-research",
+    "github": "https://github.com/isjustabhi",
     "status": "research",
-    "category": "Research"
+    "category": "AI-Powered Apps"
   },
   {
-    "id": 4,
-    "title": "Real-Time Sentiment Dashboard",
-    "description": "Live sentiment analysis dashboard processing social media streams with NLP models, providing brands with real-time public perception metrics and trend detection.",
-    "techStack": ["Python", "NLP", "React", "D3.js", "FastAPI", "Redis"],
-    "impact": "Tracked 50K+ data points daily with 92% classification accuracy.",
-    "github": "https://github.com/abhiramvarma/sentiment-dashboard",
+    "id": 5,
+    "title": "Parkinson's Disease Detection System",
+    "description": "Machine learning pipeline for early detection of Parkinson's disease using biomedical signal data. Implements classification models with feature engineering for accurate diagnosis support.",
+    "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "XGBoost", "Matplotlib"],
+    "impact": "Achieved high classification accuracy for early-stage Parkinson's detection.",
+    "github": "https://github.com/isjustabhi/Parkinson-s-Disease-Detection-System",
     "status": "completed",
-    "category": "AI/ML"
+    "category": "ML Projects"
+  },
+  {
+    "id": 6,
+    "title": "Multi-class Skin Disease Classification",
+    "description": "Deep learning model for classifying multiple skin disease types from dermatological images. Enhanced with advanced preprocessing, data augmentation, and transfer learning techniques.",
+    "techStack": ["Python", "TensorFlow", "Keras", "CNN", "Transfer Learning", "OpenCV"],
+    "impact": "Improved multi-class classification accuracy for dermatological diagnosis support.",
+    "github": "https://github.com/isjustabhi/Enhancing-Multi-class-Skin-Disease-Classification",
+    "status": "completed",
+    "category": "ML Projects"
+  },
+  {
+    "id": 7,
+    "title": "Image Classification — CIFAR-10",
+    "description": "Deep learning image classification system trained on the CIFAR-10 dataset. Implements CNN architectures with optimization techniques for high-accuracy object recognition across 10 categories.",
+    "techStack": ["Python", "TensorFlow", "Keras", "CNN", "NumPy", "Matplotlib"],
+    "impact": "Robust image classifier across 10 object categories with optimized architecture.",
+    "github": "https://github.com/isjustabhi/Image-Classification-with-CIFAR-10-Dataset",
+    "status": "completed",
+    "category": "ML Projects"
+  },
+  {
+    "id": 8,
+    "title": "Gold Price Prediction",
+    "description": "Machine learning model for predicting gold prices using historical market data. Features exploratory data analysis, feature engineering, and regression modeling for financial forecasting.",
+    "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    "impact": "Accurate gold price forecasting with comprehensive market trend analysis.",
+    "github": "https://github.com/isjustabhi/Gold-price-prediction..git",
+    "status": "completed",
+    "category": "ML Projects"
+  },
+  {
+    "id": 9,
+    "title": "Netflix Analytics Dashboard",
+    "description": "Interactive analytics dashboard visualizing Netflix content trends, genre distributions, release patterns, and regional content analysis with dynamic filtering and drill-down capabilities.",
+    "techStack": ["Tableau", "Python", "Pandas", "Data Visualization"],
+    "impact": "Comprehensive visual analysis of 8,000+ Netflix titles with interactive filters.",
+    "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/Netflix_17762279736550/Netflix",
+    "status": "completed",
+    "category": "Viz Projects"
+  },
+  {
+   "id": 10,
+   "title": "Student Engagement & Interest Dashboard",
+   "description": "Interactive Tableau dashboard analyzing student engagement and interest levels across academic, social, navigation, and wellness categories. Provides dynamic filtering, KPI tracking, and subcategory insights to support data-driven decision-making.",
+   "techStack": ["Tableau", "Data Visualization", "EDA", "Dashboard Design"],
+   "impact": "Analyzed 300+ student responses, identifying high-engagement categories and enabling actionable insights for student programs and planning.",
+   "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/StudentEngagementInterestDashboard/StudentEngagementInterestDashboard",
+   "status": "completed",
+   "category": "Viz Projects"
   }
 ]

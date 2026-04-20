@@ -7,8 +7,8 @@
       "answer": "I'm Abhiram Varma — a Data Scientist and AI Engineer based in Tucson, AZ. I specialize in building intelligent systems using Machine Learning, NLP, and Large Language Models. Currently, I'm a Graduate Data Scientist and AI/NLP Research Assistant at the University of Arizona, working on RAG systems and LLM applications. I love turning complex data into real-world impact! 🚀"
     },
     {
-      "keywords": ["project", "projects", "built", "build", "portfolio", "work"],
-      "answer": "Here are some of my key projects:\n\n🤖 **AI Student Care Assistant** — An LLM-powered assistant using RAG pipelines that reduced student wait times by 60%.\n\n📊 **Automated Analytics System** — End-to-end data pipeline automating 40+ hours of manual reporting weekly.\n\n🔬 **NLP Research (RAG & LLMs)** — Published research improving retrieval accuracy by 28%.\n\n📈 **Real-Time Sentiment Dashboard** — Live NLP dashboard tracking 50K+ data points daily.\n\nScroll down to the Projects section to see them in detail!"
+      "keywords": ["project", "projects", "built", "build", "portfolio", "work", "app"],
+      "answer": "Here are my key projects:\n\n🤖 **AI-Powered Apps:**\n• **AI Student Care Assistant** — LLM-powered assistant using RAG pipelines\n• **DiaBuddy AI** — Full-stack diabetes companion with RAG chat grounded in ADA/NIH guidelines\n• **Bio Scholar AI** — Biomedical research assistant with paper summarizer\n• **NLP Research (RAG & LLMs)** — Published research on retrieval accuracy\n\n📊 **ML & Viz Projects:**\n• **Parkinson's Disease Detection** — ML pipeline for early diagnosis\n• **Netflix Dashboard** — Interactive Tableau analytics\n• **Real-Time Sentiment Dashboard** — Live NLP sentiment tracker\n\nScroll down to the Projects section to explore them!"
     },
     {
       "keywords": ["skill", "skills", "tech", "technology", "stack", "tools", "know"],
@@ -24,11 +24,27 @@
     },
     {
       "keywords": ["contact", "reach", "email", "hire", "connect", "message"],
-      "answer": "I'd love to connect! You can reach me through:\n\n📧 **Email:** Check the contact section below\n💼 **LinkedIn:** linkedin.com/in/abhiramvarma\n🐙 **GitHub:** github.com/abhiramvarma\n\nScroll down to the Contact section or click the links in the navigation. Let's build something awesome together! 🤝"
+      "answer": "I'd love to connect! You can reach me through:\n\n📧 **Email:** Check the contact section below\n💼 **LinkedIn:** linkedin.com/in/isjustabhi\n🐙 **GitHub:** github.com/isjustabhi\n\nScroll down to the Contact section or click the links in the navigation. Let's build something awesome together! 🤝"
     },
     {
       "keywords": ["ai", "machine learning", "ml", "nlp", "llm", "rag", "model"],
-      "answer": "AI/ML is my core passion! I specialize in:\n\n🧠 **NLP & LLMs** — Working with transformers, fine-tuning models, and building RAG systems.\n📊 **Machine Learning** — Predictive modeling, anomaly detection, classification, and clustering.\n🔍 **RAG Systems** — Building retrieval-augmented generation pipelines for domain-specific knowledge.\n\nMy research at UofA focuses on improving retrieval accuracy in RAG architectures. I believe the future of AI lies in making these systems more accurate, efficient, and accessible!"
+      "answer": "AI/ML is my core passion! I specialize in:\n\n🧠 **NLP & LLMs** — Working with transformers, fine-tuning models, and building RAG systems.\n📊 **Machine Learning** — Predictive modeling, anomaly detection, classification, and clustering.\n🔍 **RAG Systems** — Building retrieval-augmented generation pipelines for domain-specific knowledge.\n\nI've built production RAG apps like **DiaBuddy AI** (medical) and **Bio Scholar AI** (biomedical research)!"
+    },
+    {
+      "keywords": ["diabuddy", "diabetes", "health", "medical"],
+      "answer": "**DiaBuddy AI** is one of my flagship projects! It's a full-stack diabetes management companion featuring:\n\n📊 Glucose, food, activity & medication tracking\n🤖 RAG-powered AI chat grounded in ADA/NIH/CDC guidelines\n📈 Dashboards with trend charts, time-in-range & estimated A1C\n💡 Personalized health insights\n\nBuilt with React, Supabase, pgvector, and Gemini AI. Check it out in the Projects section!"
+    },
+    {
+      "keywords": ["bio scholar", "biomedical", "research", "paper", "pubmed"],
+      "answer": "**Bio Scholar AI** is a biomedical research assistant I built for querying scientific literature. Key features:\n\n📄 Paper summarizer — paste a PubMed PMID/URL for structured summaries\n🔍 RAG-powered search across biomedical literature\n📋 Key findings, methods, clinical relevance extraction\n🧬 Built for researchers exploring genetic risk factors, disease mechanisms & more!"
+    },
+    {
+      "keywords": ["parkinson", "disease", "detection", "diagnosis"],
+      "answer": "My **Parkinson's Disease Detection** project uses machine learning to support early diagnosis. It implements classification models with feature engineering on biomedical signal data, achieving high accuracy for early-stage detection. Built with Python, Scikit-learn, XGBoost, and thorough data analysis."
+    },
+    {
+      "keywords": ["netflix", "dashboard", "tableau", "visualization", "viz"],
+      "answer": "My **Netflix Dashboard** is an interactive Tableau visualization analyzing 8,000+ Netflix titles. It covers content trends, genre distributions, release patterns, and regional analysis with dynamic filtering. I also built a **Real-Time Sentiment Dashboard** tracking 50K+ social media data points daily with 92% accuracy!"
     },
     {
       "keywords": ["hobby", "hobbies", "fun", "free time", "interest", "outside"],
@@ -39,7 +55,7 @@
     "Who are you?",
     "Show projects",
     "What skills do you have?",
-    "Tell me about your experience",
+    "Tell me about DiaBuddy AI",
     "What AI/ML work do you do?"
   ]
 }
