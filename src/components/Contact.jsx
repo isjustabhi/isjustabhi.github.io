@@ -76,7 +76,7 @@ export default function Contact() {
           className="mt-8"
         >
           <a
-            href={`mailto:${profileisjustabhi.email}`}
+            href={`mailto:${profile.email}`}
             className="inline-flex items-center gap-2 px-8 py-3.5 rounded-xl font-semibold text-sm relative overflow-hidden group"
           >
             <span className="absolute inset-0 bg-gradient-to-r from-neon-cyan to-neon-purple opacity-80 group-hover:opacity-100 transition-opacity" />
