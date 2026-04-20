@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "AI Student Care Assistant",
+    "description": "An intelligent AI-powered assistant built to support university students with academic advising, mental health resources, and campus navigation. Utilizes RAG pipelines and LLMs for contextual, empathetic responses.",
+    "techStack": ["Python", "LangChain", "GPT-4", "RAG", "Flask", "React", "PostgreSQL"],
+    "impact": "Reduced student wait times by 60% and handled 2,000+ queries in pilot deployment.",
+    "github": "https://github.com/abhiramvarma/ai-student-care",
+    "status": "production",
+    "category": "AI/ML"
+  },
+  {
+    "id": 2,
+    "title": "Automated Analytics System",
+    "description": "End-to-end automated data pipeline and analytics dashboard that processes raw data streams, applies ML models for anomaly detection, and generates real-time visual reports for stakeholders.",
+    "techStack": ["Python", "SQL", "Tableau", "AWS", "Airflow", "Scikit-learn"],
+    "impact": "Automated 40+ hours of manual reporting weekly, improved data accuracy by 35%.",
+    "github": "https://github.com/abhiramvarma/automated-analytics",
+    "status": "production",
+    "category": "Data Engineering"
+  },
+  {
+    "id": 3,
+    "title": "NLP Research — RAG & LLMs",
+    "description": "Advanced research on Retrieval-Augmented Generation systems, fine-tuning large language models for domain-specific knowledge extraction and question-answering tasks.",
+    "techStack": ["Python", "Transformers", "FAISS", "LangChain", "PyTorch", "HuggingFace"],
+    "impact": "Published findings improving retrieval accuracy by 28% over baseline approaches.",
+    "github": "https://github.com/abhiramvarma/nlp-rag-research",
+    "status": "research",
+    "category": "Research"
+  },
+  {
+    "id": 4,
+    "title": "Real-Time Sentiment Dashboard",
+    "description": "Live sentiment analysis dashboard processing social media streams with NLP models, providing brands with real-time public perception metrics and trend detection.",
+    "techStack": ["Python", "NLP", "React", "D3.js", "FastAPI", "Redis"],
+    "impact": "Tracked 50K+ data points daily with 92% classification accuracy.",
+    "github": "https://github.com/abhiramvarma/sentiment-dashboard",
+    "status": "completed",
+    "category": "AI/ML"
+  }
+]

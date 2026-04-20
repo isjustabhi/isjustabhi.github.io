@@ -1,0 +1,45 @@
+{
+  "greeting": "Hey! I'm Abhi's AI assistant. Ask me anything about his work, skills, or experience. Try clicking one of the suggestions below!",
+  "fallback": "That's an interesting question! I don't have a specific answer for that, but feel free to ask about Abhi's skills, projects, experience, or background. You can also reach out directly via the contact section!",
+  "responses": [
+    {
+      "keywords": ["who", "about", "tell me", "introduce", "yourself", "abhi", "abhiram"],
+      "answer": "I'm Abhiram Varma — a Data Scientist and AI Engineer based in Tucson, AZ. I specialize in building intelligent systems using Machine Learning, NLP, and Large Language Models. Currently, I'm a Graduate Data Scientist and AI/NLP Research Assistant at the University of Arizona, working on RAG systems and LLM applications. I love turning complex data into real-world impact! 🚀"
+    },
+    {
+      "keywords": ["project", "projects", "built", "build", "portfolio", "work"],
+      "answer": "Here are some of my key projects:\n\n🤖 **AI Student Care Assistant** — An LLM-powered assistant using RAG pipelines that reduced student wait times by 60%.\n\n📊 **Automated Analytics System** — End-to-end data pipeline automating 40+ hours of manual reporting weekly.\n\n🔬 **NLP Research (RAG & LLMs)** — Published research improving retrieval accuracy by 28%.\n\n📈 **Real-Time Sentiment Dashboard** — Live NLP dashboard tracking 50K+ data points daily.\n\nScroll down to the Projects section to see them in detail!"
+    },
+    {
+      "keywords": ["skill", "skills", "tech", "technology", "stack", "tools", "know"],
+      "answer": "My tech toolkit includes:\n\n💻 **Languages:** Python, SQL, R, JavaScript\n🧠 **AI/ML:** Machine Learning, NLP, LLMs, RAG, Deep Learning\n🌐 **Web:** React, Flask, FastAPI\n📊 **Visualization:** Tableau, Power BI, D3.js\n☁️ **Cloud & DevOps:** AWS, Docker\n\nI'm always learning and adding new tools to my arsenal!"
+    },
+    {
+      "keywords": ["experience", "work", "job", "career", "history", "resume"],
+      "answer": "Here's my journey so far:\n\n🎓 **Graduate Data Scientist** @ University of Arizona (2023–Present) — Leading ML pipelines and research.\n\n🔬 **AI/NLP Research Assistant** @ University of Arizona (2023–Present) — Working on RAG systems and LLM fine-tuning.\n\n📈 **Data Analyst Intern** (2022–2023) — Built automated dashboards and data quality frameworks.\n\n📊 **Data Analyst** @ MeeBuddy (2021–2022) — Built analytics infrastructure from the ground up.\n\nCheck the Experience section for more details!"
+    },
+    {
+      "keywords": ["education", "university", "degree", "study", "school", "college"],
+      "answer": "I'm currently pursuing my graduate studies at the **University of Arizona** in Tucson, AZ, focusing on Data Science and AI. My academic work centers on NLP, Large Language Models, and Retrieval-Augmented Generation systems. I combine rigorous academic research with hands-on engineering to push the boundaries of what's possible with AI. 🎓"
+    },
+    {
+      "keywords": ["contact", "reach", "email", "hire", "connect", "message"],
+      "answer": "I'd love to connect! You can reach me through:\n\n📧 **Email:** Check the contact section below\n💼 **LinkedIn:** linkedin.com/in/abhiramvarma\n🐙 **GitHub:** github.com/abhiramvarma\n\nScroll down to the Contact section or click the links in the navigation. Let's build something awesome together! 🤝"
+    },
+    {
+      "keywords": ["ai", "machine learning", "ml", "nlp", "llm", "rag", "model"],
+      "answer": "AI/ML is my core passion! I specialize in:\n\n🧠 **NLP & LLMs** — Working with transformers, fine-tuning models, and building RAG systems.\n📊 **Machine Learning** — Predictive modeling, anomaly detection, classification, and clustering.\n🔍 **RAG Systems** — Building retrieval-augmented generation pipelines for domain-specific knowledge.\n\nMy research at UofA focuses on improving retrieval accuracy in RAG architectures. I believe the future of AI lies in making these systems more accurate, efficient, and accessible!"
+    },
+    {
+      "keywords": ["hobby", "hobbies", "fun", "free time", "interest", "outside"],
+      "answer": "When I'm not training models or writing code, you'll find me:\n\n🎮 Exploring new tech and side projects\n📚 Reading about the latest in AI research\n🏔️ Enjoying the beautiful Arizona outdoors\n☕ Fueling up on coffee while brainstorming ideas\n\nI'm a lifelong learner who believes in the intersection of curiosity and creativity!"
+    }
+  ],
+  "suggestions": [
+    "Who are you?",
+    "Show projects",
+    "What skills do you have?",
+    "Tell me about your experience",
+    "What AI/ML work do you do?"
+  ]
+}

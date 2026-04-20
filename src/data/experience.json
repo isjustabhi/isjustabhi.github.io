@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "role": "Graduate Data Scientist",
+    "company": "University of Arizona",
+    "location": "Tucson, AZ",
+    "period": "2023 — Present",
+    "description": "Leading data science initiatives across research departments. Building ML pipelines, conducting statistical analyses, and developing predictive models for academic research projects.",
+    "highlights": ["Machine Learning Pipelines", "Statistical Analysis", "Research Collaboration"]
+  },
+  {
+    "id": 2,
+    "role": "AI/NLP Research Assistant",
+    "company": "University of Arizona",
+    "location": "Tucson, AZ",
+    "period": "2023 — Present",
+    "description": "Researching Retrieval-Augmented Generation (RAG) systems and Large Language Models. Developing novel approaches to knowledge extraction and domain-specific fine-tuning.",
+    "highlights": ["RAG Systems", "LLM Fine-tuning", "Knowledge Extraction"]
+  },
+  {
+    "id": 3,
+    "role": "Data Analyst Intern",
+    "company": "Industry Partner",
+    "location": "Remote",
+    "period": "2022 — 2023",
+    "description": "Analyzed large-scale datasets to derive business insights. Created automated reporting dashboards and implemented data quality frameworks that reduced errors by 35%.",
+    "highlights": ["Data Analysis", "Dashboard Development", "Automation"]
+  },
+  {
+    "id": 4,
+    "role": "Data Analyst",
+    "company": "MeeBuddy",
+    "location": "India",
+    "period": "2021 — 2022",
+    "description": "Built analytics infrastructure from ground up. Designed KPI tracking systems, developed user behavior models, and created data-driven product recommendations.",
+    "highlights": ["Analytics Infrastructure", "KPI Systems", "User Modeling"]
+  }
+]

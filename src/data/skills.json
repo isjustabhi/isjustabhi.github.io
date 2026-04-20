@@ -1,0 +1,44 @@
+{
+  "categories": [
+    {
+      "name": "Languages & Core",
+      "icon": "code",
+      "skills": [
+        { "name": "Python", "level": 95 },
+        { "name": "SQL", "level": 90 },
+        { "name": "R", "level": 75 },
+        { "name": "JavaScript", "level": 70 }
+      ]
+    },
+    {
+      "name": "AI & Machine Learning",
+      "icon": "brain",
+      "skills": [
+        { "name": "Machine Learning", "level": 92 },
+        { "name": "NLP", "level": 88 },
+        { "name": "LLMs / RAG", "level": 85 },
+        { "name": "Deep Learning", "level": 80 }
+      ]
+    },
+    {
+      "name": "Web & Frameworks",
+      "icon": "globe",
+      "skills": [
+        { "name": "React", "level": 75 },
+        { "name": "Flask", "level": 80 },
+        { "name": "FastAPI", "level": 78 },
+        { "name": "Tailwind CSS", "level": 72 }
+      ]
+    },
+    {
+      "name": "Data & Cloud",
+      "icon": "database",
+      "skills": [
+        { "name": "Tableau", "level": 88 },
+        { "name": "Power BI", "level": 82 },
+        { "name": "AWS", "level": 75 },
+        { "name": "Docker", "level": 70 }
+      ]
+    }
+  ]
+}
