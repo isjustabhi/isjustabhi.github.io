@@ -55,7 +55,7 @@
     "description": "Advanced research on Retrieval-Augmented Generation systems, fine-tuning large language models for domain-specific knowledge extraction and question-answering tasks.",
     "techStack": ["Python", "Transformers", "FAISS", "LangChain", "PyTorch", "HuggingFace"],
     "impact": "Published findings improving retrieval accuracy by 28% over baseline approaches.",
-    "github": "https://github.com/isjustabhi",
+    "github": "https://github.com/isjustabhi/Emotion-Classification-Tweets.git",
     "status": "research",
     "category": "AI-Powered Apps"
   },
