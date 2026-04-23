@@ -1,26 +1,6 @@
 [
   {
     "id": 1,
-    "title": "Drift — AI-Powered Location Intelligence",
-    "description": "AI-powered location life report generator that creates immersive reports for any city on Earth. Features Vibe Score radar charts, quick stats dashboards, honest lifestyle narratives, cinematic 'A Day In...' stories, and side-by-side city comparison with AI verdicts. Futuristic dark UI with glassmorphism design.",
-    "techStack": ["React", "Tailwind CSS", "Recharts", "GPT-4o", "OpenAI API", "Vite"],
-    "impact": "Generates comprehensive location intelligence reports combining real data with immersive AI narratives for any city worldwide.",
-    "github": "https://github.com/isjustabhi/drift",
-    "status": "production",
-    "category": "AI-Powered Apps"
-  },
-  {
-    "id": 2,
-    "title": "TriageLens — AI Emergency Triage Co-Pilot",
-    "description": "AI-powered clinical decision support tool that predicts ESI acuity levels (1-5) with explainable chain-of-thought clinical reasoning. Features live patient queue board, real-time AI reasoning trace, interactive factor analysis charts, and simulation mode for generating realistic patient scenarios.",
-    "techStack": ["React", "Tailwind CSS", "Recharts", "OpenAI API", "GPT-4o", "Vite"],
-    "impact": "Addresses the ~30% ER triage misclassification rate with transparent, auditable AI-powered clinical reasoning.",
-    "github": "https://github.com/isjustabhi/triagelens",
-    "status": "production",
-    "category": "AI-Powered Apps"
-  },
-  {
-    "id": 3,
     "title": "AI Student Care Assistant",
     "description": "An intelligent AI-powered assistant built to support university students with academic advising, mental health resources, and campus navigation. Utilizes RAG pipelines and LLMs for contextual, empathetic responses.",
     "techStack": ["Python", "LangChain", "GPT-4", "RAG", "Flask", "React", "PostgreSQL"],
@@ -30,7 +10,7 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 4,
+    "id": 2,
     "title": "DiaBuddy AI — Diabetes Companion",
     "description": "Full-stack AI diabetes management app with glucose/food/activity tracking, RAG-powered chat grounded in ADA/NIH/CDC guidelines, dashboards with trend charts, time-in-range analysis, estimated A1C, and personalized insights.",
     "techStack": ["React", "Supabase", "pgvector", "Gemini AI", "RAG", "TanStack", "PostgreSQL"],
@@ -40,7 +20,7 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 5,
+    "id": 3,
     "title": "Bio Scholar AI — Biomedical Research Assistant",
     "description": "RAG-powered biomedical research tool for querying scientific literature. Features paper summarizer via PubMed PMID/URL, structured summaries with key findings, methods, and clinical relevance.",
     "techStack": ["React", "RAG", "NLP", "PubMed API", "Gemini AI", "Supabase", "pgvector"],
@@ -50,17 +30,17 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 6,
+    "id": 4,
     "title": "NLP Research — RAG & LLMs",
     "description": "Advanced research on Retrieval-Augmented Generation systems, fine-tuning large language models for domain-specific knowledge extraction and question-answering tasks.",
     "techStack": ["Python", "Transformers", "FAISS", "LangChain", "PyTorch", "HuggingFace"],
     "impact": "Published findings improving retrieval accuracy by 28% over baseline approaches.",
-    "github": "https://github.com/isjustabhi/Emotion-Classification-Tweets.git",
+    "github": "https://github.com/isjustabhi",
     "status": "research",
     "category": "AI-Powered Apps"
   },
   {
-    "id": 7,
+    "id": 5,
     "title": "Parkinson's Disease Detection System",
     "description": "Machine learning pipeline for early detection of Parkinson's disease using biomedical signal data. Implements classification models with feature engineering for accurate diagnosis support.",
     "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "XGBoost", "Matplotlib"],
@@ -70,7 +50,7 @@
     "category": "ML Projects"
   },
   {
-    "id": 8,
+    "id": 6,
     "title": "Multi-class Skin Disease Classification",
     "description": "Deep learning model for classifying multiple skin disease types from dermatological images. Enhanced with advanced preprocessing, data augmentation, and transfer learning techniques.",
     "techStack": ["Python", "TensorFlow", "Keras", "CNN", "Transfer Learning", "OpenCV"],
@@ -80,7 +60,7 @@
     "category": "ML Projects"
   },
   {
-    "id": 9,
+    "id": 7,
     "title": "Image Classification — CIFAR-10",
     "description": "Deep learning image classification system trained on the CIFAR-10 dataset. Implements CNN architectures with optimization techniques for high-accuracy object recognition across 10 categories.",
     "techStack": ["Python", "TensorFlow", "Keras", "CNN", "NumPy", "Matplotlib"],
@@ -90,7 +70,7 @@
     "category": "ML Projects"
   },
   {
-    "id": 10,
+    "id": 8,
     "title": "Gold Price Prediction",
     "description": "Machine learning model for predicting gold prices using historical market data. Features exploratory data analysis, feature engineering, and regression modeling for financial forecasting.",
     "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
@@ -100,7 +80,7 @@
     "category": "ML Projects"
   },
   {
-    "id": 11,
+    "id": 9,
     "title": "Netflix Analytics Dashboard",
     "description": "Interactive analytics dashboard visualizing Netflix content trends, genre distributions, release patterns, and regional content analysis with dynamic filtering and drill-down capabilities.",
     "techStack": ["Tableau", "Python", "Pandas", "Data Visualization"],
@@ -110,13 +90,13 @@
     "category": "Viz Projects"
   },
   {
-    "id": 12,
-    "title": "Student Engagement & Interest Dashboard",
-    "description": "Interactive Tableau dashboard analyzing student engagement and interest levels across academic, social, navigation, and wellness categories. Provides dynamic filtering, KPI tracking, and subcategory insights to support data-driven decision-making.",
-    "techStack": ["Tableau", "Data Visualization", "EDA", "Dashboard Design"],
-    "impact": "Analyzed 300+ student responses, identifying high-engagement categories and enabling actionable insights for student programs and planning.",
-    "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/StudentEngagementInterestDashboard/StudentEngagementInterestDashboard",
-    "status": "completed",
-    "category": "Viz Projects"
+   "id": 10,
+   "title": "Student Engagement and Interest Dashboard",
+   "description": "Interactive Tableau dashboard analyzing student engagement and interest levels across academic, social, navigation, and wellness categories. Provides dynamic filtering, KPI tracking, and subcategory insights to support data-driven decision-making.",
+   "techStack": ["Tableau", "Data Visualization", "EDA", "Dashboard Design"],
+   "impact": "Analyzed 300+ student responses, identifying high-engagement categories and enabling actionable insights for student programs and planning.",
+   "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/StudentEngagementInterestDashboard/StudentEngagementInterestDashboard",
+   "status": "completed",
+   "category": "Viz Projects"
   }
 ]
