@@ -1,8 +1,28 @@
 [
   {
     "id": 1,
+    "title": "DataLoom — AI Data Pipeline Studio",
+    "description": "★ Transforms raw CSV/Excel files into production-ready analytics in 4 stages: Ingest → Refine → Enrich → Deploy ★ AI auto-profiles data quality, detects and fixes nulls, type mismatches and outliers ★ Generates KPIs with interactive charts and extracts business insights with anomaly detection ★ Exports clean datasets with PySpark pipeline code ★ Real-time progress tracking, transformation timeline, and one-click exports",
+    "techStack": ["React", "Tailwind CSS", "Recharts", "GPT-4o", "OpenAI API", "PapaParse", "SheetJS", "Vite"],
+    "impact": "End-to-end automated data pipeline from raw upload to production-ready analytics with AI-powered cleaning and visualization.",
+    "github": "https://data-loom-isjustabhi.vercel.app/",
+    "status": "production",
+    "category": "AI-Powered Apps"
+  },
+  {
+    "id": 2,
+    "title": "SleepLens — AI Sleep Health Intelligence",
+    "description": "★ AI-powered sleep health platform assessing cardiometabolic risk from sleep patterns ★ Sleep score gauge with circadian alignment and chronotype detection ★ 6-factor cardiometabolic risk radar: hypertension, diabetes, cardiovascular, metabolic syndrome, cognitive, immune ★ Sleep disorder screening for apnea, insomnia, RLS ★ 5 ranked clinical recommendations and personalized 7-day sleep reset plan ★ Grounded in AASM and AHA clinical guidelines",
+    "techStack": ["React", "Tailwind CSS", "Recharts", "GPT-4o", "OpenAI API", "Vite"],
+    "impact": "Comprehensive sleep health intelligence report with clinical-grade cardiometabolic risk assessment and personalized improvement protocols.",
+    "github": "https://sleeplens.vercel.app/",
+    "status": "production",
+    "category": "AI-Powered Apps"
+  },
+  {
+    "id": 3,
     "title": "AI Student Care Assistant",
-    "description": "An intelligent AI-powered assistant built to support university students with academic advising, mental health resources, and campus navigation. Utilizes RAG pipelines and LLMs for contextual, empathetic responses.",
+    "description": "★ AI-powered assistant supporting university students with academic advising, mental health resources, and campus navigation ★ RAG pipelines and LLMs for contextual, empathetic responses ★ Sentiment detection with crisis keyword monitoring ★ 10+ real UA campus resources with phone numbers and URLs",
     "techStack": ["Python", "LangChain", "GPT-4", "RAG", "Flask", "React", "PostgreSQL"],
     "impact": "Reduced student wait times by 60% and handled 2,000+ queries in pilot deployment.",
     "github": "https://ai-student-care.vercel.app/",
@@ -10,9 +30,9 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 2,
+    "id": 4,
     "title": "DiaBuddy AI — Diabetes Companion",
-    "description": "Full-stack AI diabetes management app with glucose/food/activity tracking, RAG-powered chat grounded in ADA/NIH/CDC guidelines, dashboards with trend charts, time-in-range analysis, estimated A1C, and personalized insights.",
+    "description": "★ Full-stack AI diabetes management app with glucose/food/activity tracking ★ RAG-powered chat grounded in ADA/NIH/CDC guidelines ★ Dashboards with trend charts, time-in-range analysis, estimated A1C ★ Personalized insights from 28+ curated medical knowledge chunks",
     "techStack": ["React", "Supabase", "pgvector", "Gemini AI", "RAG", "TanStack", "PostgreSQL"],
     "impact": "End-to-end health tracking with AI chat citing 28+ curated medical knowledge chunks.",
     "github": "https://dia-wise-ai.lovable.app",
@@ -20,9 +40,9 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 3,
+    "id": 5,
     "title": "Bio Scholar AI — Biomedical Research Assistant",
-    "description": "RAG-powered biomedical research tool for querying scientific literature. Features paper summarizer via PubMed PMID/URL, structured summaries with key findings, methods, and clinical relevance.",
+    "description": "★ RAG-powered biomedical research tool for querying scientific literature ★ Paper summarizer via PubMed PMID/URL ★ Structured summaries with key findings, methods, and clinical relevance ★ Entity extraction and clinical insights",
     "techStack": ["React", "RAG", "NLP", "PubMed API", "Gemini AI", "Supabase", "pgvector"],
     "impact": "Instant structured summaries of biomedical papers with entity extraction and clinical insights.",
     "github": "https://bio-cite-scribe.lovable.app",
@@ -30,9 +50,9 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 4,
+    "id": 6,
     "title": "NLP Research — RAG & LLMs",
-    "description": "Advanced research on Retrieval-Augmented Generation systems, fine-tuning large language models for domain-specific knowledge extraction and question-answering tasks.",
+    "description": "★ Advanced research on Retrieval-Augmented Generation systems ★ Fine-tuning large language models for domain-specific knowledge extraction ★ Question-answering tasks with improved retrieval accuracy",
     "techStack": ["Python", "Transformers", "FAISS", "LangChain", "PyTorch", "HuggingFace"],
     "impact": "Published findings improving retrieval accuracy by 28% over baseline approaches.",
     "github": "https://github.com/isjustabhi",
@@ -40,9 +60,9 @@
     "category": "AI-Powered Apps"
   },
   {
-    "id": 5,
+    "id": 7,
     "title": "Parkinson's Disease Detection System",
-    "description": "Machine learning pipeline for early detection of Parkinson's disease using biomedical signal data. Implements classification models with feature engineering for accurate diagnosis support.",
+    "description": "★ ML pipeline for early detection of Parkinson's disease using biomedical signal data ★ Classification models with feature engineering ★ High accuracy for early-stage diagnosis support",
     "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "XGBoost", "Matplotlib"],
     "impact": "Achieved high classification accuracy for early-stage Parkinson's detection.",
     "github": "https://github.com/isjustabhi/Parkinson-s-Disease-Detection-System",
@@ -50,9 +70,9 @@
     "category": "ML Projects"
   },
   {
-    "id": 6,
+    "id": 8,
     "title": "Multi-class Skin Disease Classification",
-    "description": "Deep learning model for classifying multiple skin disease types from dermatological images. Enhanced with advanced preprocessing, data augmentation, and transfer learning techniques.",
+    "description": "★ Deep learning model for classifying multiple skin disease types from dermatological images ★ Advanced preprocessing, data augmentation, and transfer learning ★ Improved multi-class classification accuracy",
     "techStack": ["Python", "TensorFlow", "Keras", "CNN", "Transfer Learning", "OpenCV"],
     "impact": "Improved multi-class classification accuracy for dermatological diagnosis support.",
     "github": "https://github.com/isjustabhi/Enhancing-Multi-class-Skin-Disease-Classification",
@@ -60,9 +80,9 @@
     "category": "ML Projects"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Image Classification — CIFAR-10",
-    "description": "Deep learning image classification system trained on the CIFAR-10 dataset. Implements CNN architectures with optimization techniques for high-accuracy object recognition across 10 categories.",
+    "description": "★ Deep learning image classification trained on CIFAR-10 ★ CNN architectures with optimization techniques ★ High-accuracy object recognition across 10 categories",
     "techStack": ["Python", "TensorFlow", "Keras", "CNN", "NumPy", "Matplotlib"],
     "impact": "Robust image classifier across 10 object categories with optimized architecture.",
     "github": "https://github.com/isjustabhi/Image-Classification-with-CIFAR-10-Dataset",
@@ -70,9 +90,9 @@
     "category": "ML Projects"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Gold Price Prediction",
-    "description": "Machine learning model for predicting gold prices using historical market data. Features exploratory data analysis, feature engineering, and regression modeling for financial forecasting.",
+    "description": "★ ML model for predicting gold prices using historical market data ★ Exploratory data analysis and feature engineering ★ Regression modeling for financial forecasting",
     "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
     "impact": "Accurate gold price forecasting with comprehensive market trend analysis.",
     "github": "https://github.com/isjustabhi/Gold-price-prediction..git",
@@ -80,9 +100,9 @@
     "category": "ML Projects"
   },
   {
-    "id": 9,
+    "id": 11,
     "title": "Netflix Analytics Dashboard",
-    "description": "Interactive analytics dashboard visualizing Netflix content trends, genre distributions, release patterns, and regional content analysis with dynamic filtering and drill-down capabilities.",
+    "description": "★ Interactive analytics dashboard visualizing Netflix content trends ★ Genre distributions, release patterns, and regional content analysis ★ Dynamic filtering and drill-down capabilities across 8,000+ titles",
     "techStack": ["Tableau", "Python", "Pandas", "Data Visualization"],
     "impact": "Comprehensive visual analysis of 8,000+ Netflix titles with interactive filters.",
     "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/Netflix_17762279736550/Netflix",
@@ -90,13 +110,13 @@
     "category": "Viz Projects"
   },
   {
-   "id": 10,
-   "title": "Student Engagement and Interest Dashboard",
-   "description": "Interactive Tableau dashboard analyzing student engagement and interest levels across academic, social, navigation, and wellness categories. Provides dynamic filtering, KPI tracking, and subcategory insights to support data-driven decision-making.",
-   "techStack": ["Tableau", "Data Visualization", "EDA", "Dashboard Design"],
-   "impact": "Analyzed 300+ student responses, identifying high-engagement categories and enabling actionable insights for student programs and planning.",
-   "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/StudentEngagementInterestDashboard/StudentEngagementInterestDashboard",
-   "status": "completed",
-   "category": "Viz Projects"
+    "id": 12,
+    "title": "Student Engagement and Interest Dashboard",
+    "description": "★ Interactive Tableau dashboard analyzing student engagement across academic, social, navigation, and wellness categories ★ Dynamic filtering, KPI tracking, and subcategory insights ★ Data-driven decision-making for student programs",
+    "techStack": ["Tableau", "Data Visualization", "EDA", "Dashboard Design"],
+    "impact": "Analyzed 300+ student responses, identifying high-engagement categories and enabling actionable insights for student programs and planning.",
+    "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/StudentEngagementInterestDashboard/StudentEngagementInterestDashboard",
+    "status": "completed",
+    "category": "Viz Projects"
   }
 ]
