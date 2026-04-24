@@ -1,9 +1,18 @@
 [
   {
     "id": 1,
-    "title": "DataLoom — AI Data Pipeline Studio",
-    "description": "★ Transforms raw CSV/Excel files into production-ready analytics in 4 stages: Ingest → Refine → Enrich → Deploy ★ AI auto-profiles data quality, detects and fixes nulls, type mismatches and outliers ★ Generates KPIs with interactive charts and extracts business insights with anomaly detection ★ Exports clean datasets with PySpark pipeline code ★ Real-time progress tracking, transformation timeline, and one-click exports",
-    "techStack": ["React", "Tailwind CSS", "Recharts", "GPT-4o", "OpenAI API", "PapaParse", "SheetJS", "Vite"],
+    "title": "DataLoom \u2014 AI Data Pipeline Studio",
+    "description": "\u2605 Transforms raw CSV/Excel files into production-ready analytics in 4 stages: Ingest \u2192 Refine \u2192 Enrich \u2192 Deploy \u2605 AI auto-profiles data quality, detects and fixes nulls, type mismatches and outliers \u2605 Generates KPIs with interactive charts and extracts business insights with anomaly detection \u2605 Exports clean datasets with PySpark pipeline code \u2605 Real-time progress tracking, transformation timeline, and one-click exports",
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Recharts",
+      "GPT-4o",
+      "OpenAI API",
+      "PapaParse",
+      "SheetJS",
+      "Vite"
+    ],
     "impact": "End-to-end automated data pipeline from raw upload to production-ready analytics with AI-powered cleaning and visualization.",
     "github": "https://data-loom-isjustabhi.vercel.app/",
     "status": "production",
@@ -11,9 +20,16 @@
   },
   {
     "id": 2,
-    "title": "SleepLens — AI Sleep Health Intelligence",
-    "description": "★ AI-powered sleep health platform assessing cardiometabolic risk from sleep patterns ★ Sleep score gauge with circadian alignment and chronotype detection ★ 6-factor cardiometabolic risk radar: hypertension, diabetes, cardiovascular, metabolic syndrome, cognitive, immune ★ Sleep disorder screening for apnea, insomnia, RLS ★ 5 ranked clinical recommendations and personalized 7-day sleep reset plan ★ Grounded in AASM and AHA clinical guidelines",
-    "techStack": ["React", "Tailwind CSS", "Recharts", "GPT-4o", "OpenAI API", "Vite"],
+    "title": "SleepLens \u2014 AI Sleep Health Intelligence",
+    "description": "\u2605 AI-powered sleep health platform assessing cardiometabolic risk from sleep patterns \u2605 Sleep score gauge with circadian alignment and chronotype detection \u2605 6-factor cardiometabolic risk radar: hypertension, diabetes, cardiovascular, metabolic syndrome, cognitive, immune \u2605 Sleep disorder screening for apnea, insomnia, RLS \u2605 5 ranked clinical recommendations and personalized 7-day sleep reset plan \u2605 Grounded in AASM and AHA clinical guidelines",
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Recharts",
+      "GPT-4o",
+      "OpenAI API",
+      "Vite"
+    ],
     "impact": "Comprehensive sleep health intelligence report with clinical-grade cardiometabolic risk assessment and personalized improvement protocols.",
     "github": "https://sleeplens.vercel.app/",
     "status": "production",
@@ -21,99 +37,202 @@
   },
   {
     "id": 3,
+    "title": "TriageLens \u2014 AI Emergency Triage Co-Pilot",
+    "description": "\u2605 AI-powered clinical decision support tool predicting ESI acuity levels 1-5 with explainable reasoning \u2605 Live patient queue board color-coded by severity \u2605 Real-time AI reasoning trace streaming step-by-step clinical logic \u2605 Interactive factor analysis charts showing how each vital impacts triage \u2605 Simulation mode generating realistic patient scenarios \u2605 Addresses ~30% ER triage misclassification rate",
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Recharts",
+      "GPT-4o",
+      "OpenAI API",
+      "Vite"
+    ],
+    "impact": "Transparent, auditable AI triage co-pilot with chain-of-thought clinical reasoning for emergency departments.",
+    "github": "https://github.com/isjustabhi/triagelens",
+    "status": "production",
+    "category": "AI-Powered Apps"
+  },
+  {
+    "id": 4,
+    "title": "Drift \u2014 AI Location Intelligence",
+    "description": "\u2605 AI-powered location life report generator for any city on Earth \u2605 Vibe Score radar chart across 6 categories: Cost, Safety, Weather, Culture, Food, Walkability \u2605 Quick stats dashboard with real data on rent, coffee price, safety index, internet speed \u2605 Cinematic 'A Day In...' second-person narrative of daily life \u2605 Side-by-side city comparison with overlaid radar charts and AI verdict \u2605 Futuristic dark glassmorphism UI",
+    "techStack": [
+      "React",
+      "Tailwind CSS",
+      "Recharts",
+      "GPT-4o",
+      "OpenAI API",
+      "Vite"
+    ],
+    "impact": "Immersive location intelligence combining real-world data with AI narratives for any city worldwide.",
+    "github": "https://github.com/isjustabhi/drift",
+    "status": "production",
+    "category": "AI-Powered Apps"
+  },
+  {
+    "id": 5,
     "title": "AI Student Care Assistant",
-    "description": "★ AI-powered assistant supporting university students with academic advising, mental health resources, and campus navigation ★ RAG pipelines and LLMs for contextual, empathetic responses ★ Sentiment detection with crisis keyword monitoring ★ 10+ real UA campus resources with phone numbers and URLs",
-    "techStack": ["Python", "LangChain", "GPT-4", "RAG", "Flask", "React", "PostgreSQL"],
+    "description": "\u2605 AI-powered assistant supporting university students with academic advising, mental health resources, and campus navigation \u2605 RAG pipelines and LLMs for contextual, empathetic responses \u2605 Sentiment detection with crisis keyword monitoring \u2605 10+ real UA campus resources with phone numbers and URLs",
+    "techStack": [
+      "Python",
+      "LangChain",
+      "GPT-4",
+      "RAG",
+      "Flask",
+      "React",
+      "PostgreSQL"
+    ],
     "impact": "Reduced student wait times by 60% and handled 2,000+ queries in pilot deployment.",
     "github": "https://ai-student-care.vercel.app/",
     "status": "production",
     "category": "AI-Powered Apps"
   },
   {
-    "id": 4,
-    "title": "DiaBuddy AI — Diabetes Companion",
-    "description": "★ Full-stack AI diabetes management app with glucose/food/activity tracking ★ RAG-powered chat grounded in ADA/NIH/CDC guidelines ★ Dashboards with trend charts, time-in-range analysis, estimated A1C ★ Personalized insights from 28+ curated medical knowledge chunks",
-    "techStack": ["React", "Supabase", "pgvector", "Gemini AI", "RAG", "TanStack", "PostgreSQL"],
+    "id": 6,
+    "title": "DiaBuddy AI \u2014 Diabetes Companion",
+    "description": "\u2605 Full-stack AI diabetes management app with glucose/food/activity tracking \u2605 RAG-powered chat grounded in ADA/NIH/CDC guidelines \u2605 Dashboards with trend charts, time-in-range analysis, estimated A1C \u2605 Personalized insights from 28+ curated medical knowledge chunks",
+    "techStack": [
+      "React",
+      "Supabase",
+      "pgvector",
+      "Gemini AI",
+      "RAG",
+      "TanStack",
+      "PostgreSQL"
+    ],
     "impact": "End-to-end health tracking with AI chat citing 28+ curated medical knowledge chunks.",
     "github": "https://dia-wise-ai.lovable.app",
     "status": "production",
     "category": "AI-Powered Apps"
   },
   {
-    "id": 5,
-    "title": "Bio Scholar AI — Biomedical Research Assistant",
-    "description": "★ RAG-powered biomedical research tool for querying scientific literature ★ Paper summarizer via PubMed PMID/URL ★ Structured summaries with key findings, methods, and clinical relevance ★ Entity extraction and clinical insights",
-    "techStack": ["React", "RAG", "NLP", "PubMed API", "Gemini AI", "Supabase", "pgvector"],
+    "id": 7,
+    "title": "Bio Scholar AI \u2014 Biomedical Research Assistant",
+    "description": "\u2605 RAG-powered biomedical research tool for querying scientific literature \u2605 Paper summarizer via PubMed PMID/URL \u2605 Structured summaries with key findings, methods, and clinical relevance \u2605 Entity extraction and clinical insights",
+    "techStack": [
+      "React",
+      "RAG",
+      "NLP",
+      "PubMed API",
+      "Gemini AI",
+      "Supabase",
+      "pgvector"
+    ],
     "impact": "Instant structured summaries of biomedical papers with entity extraction and clinical insights.",
     "github": "https://bio-cite-scribe.lovable.app",
     "status": "production",
     "category": "AI-Powered Apps"
   },
   {
-    "id": 6,
-    "title": "NLP Research — RAG & LLMs",
-    "description": "★ Advanced research on Retrieval-Augmented Generation systems ★ Fine-tuning large language models for domain-specific knowledge extraction ★ Question-answering tasks with improved retrieval accuracy",
-    "techStack": ["Python", "Transformers", "FAISS", "LangChain", "PyTorch", "HuggingFace"],
+    "id": 8,
+    "title": "NLP Research \u2014 RAG & LLMs",
+    "description": "\u2605 Advanced research on Retrieval-Augmented Generation systems \u2605 Fine-tuning large language models for domain-specific knowledge extraction \u2605 Question-answering tasks with improved retrieval accuracy",
+    "techStack": [
+      "Python",
+      "Transformers",
+      "FAISS",
+      "LangChain",
+      "PyTorch",
+      "HuggingFace"
+    ],
     "impact": "Published findings improving retrieval accuracy by 28% over baseline approaches.",
     "github": "https://github.com/isjustabhi",
     "status": "research",
     "category": "AI-Powered Apps"
   },
   {
-    "id": 7,
+    "id": 9,
     "title": "Parkinson's Disease Detection System",
-    "description": "★ ML pipeline for early detection of Parkinson's disease using biomedical signal data ★ Classification models with feature engineering ★ High accuracy for early-stage diagnosis support",
-    "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "XGBoost", "Matplotlib"],
+    "description": "\u2605 ML pipeline for early detection of Parkinson's disease using biomedical signal data \u2605 Classification models with feature engineering \u2605 High accuracy for early-stage diagnosis support",
+    "techStack": [
+      "Python",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "XGBoost",
+      "Matplotlib"
+    ],
     "impact": "Achieved high classification accuracy for early-stage Parkinson's detection.",
     "github": "https://github.com/isjustabhi/Parkinson-s-Disease-Detection-System",
     "status": "completed",
     "category": "ML Projects"
   },
   {
-    "id": 8,
+    "id": 10,
     "title": "Multi-class Skin Disease Classification",
-    "description": "★ Deep learning model for classifying multiple skin disease types from dermatological images ★ Advanced preprocessing, data augmentation, and transfer learning ★ Improved multi-class classification accuracy",
-    "techStack": ["Python", "TensorFlow", "Keras", "CNN", "Transfer Learning", "OpenCV"],
+    "description": "\u2605 Deep learning model for classifying multiple skin disease types from dermatological images \u2605 Advanced preprocessing, data augmentation, and transfer learning \u2605 Improved multi-class classification accuracy",
+    "techStack": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "CNN",
+      "Transfer Learning",
+      "OpenCV"
+    ],
     "impact": "Improved multi-class classification accuracy for dermatological diagnosis support.",
     "github": "https://github.com/isjustabhi/Enhancing-Multi-class-Skin-Disease-Classification",
     "status": "completed",
     "category": "ML Projects"
   },
   {
-    "id": 9,
-    "title": "Image Classification — CIFAR-10",
-    "description": "★ Deep learning image classification trained on CIFAR-10 ★ CNN architectures with optimization techniques ★ High-accuracy object recognition across 10 categories",
-    "techStack": ["Python", "TensorFlow", "Keras", "CNN", "NumPy", "Matplotlib"],
+    "id": 11,
+    "title": "Image Classification \u2014 CIFAR-10",
+    "description": "\u2605 Deep learning image classification trained on CIFAR-10 \u2605 CNN architectures with optimization techniques \u2605 High-accuracy object recognition across 10 categories",
+    "techStack": [
+      "Python",
+      "TensorFlow",
+      "Keras",
+      "CNN",
+      "NumPy",
+      "Matplotlib"
+    ],
     "impact": "Robust image classifier across 10 object categories with optimized architecture.",
     "github": "https://github.com/isjustabhi/Image-Classification-with-CIFAR-10-Dataset",
     "status": "completed",
     "category": "ML Projects"
   },
   {
-    "id": 10,
+    "id": 12,
     "title": "Gold Price Prediction",
-    "description": "★ ML model for predicting gold prices using historical market data ★ Exploratory data analysis and feature engineering ★ Regression modeling for financial forecasting",
-    "techStack": ["Python", "Scikit-learn", "Pandas", "NumPy", "Matplotlib", "Seaborn"],
+    "description": "\u2605 ML model for predicting gold prices using historical market data \u2605 Exploratory data analysis and feature engineering \u2605 Regression modeling for financial forecasting",
+    "techStack": [
+      "Python",
+      "Scikit-learn",
+      "Pandas",
+      "NumPy",
+      "Matplotlib",
+      "Seaborn"
+    ],
     "impact": "Accurate gold price forecasting with comprehensive market trend analysis.",
     "github": "https://github.com/isjustabhi/Gold-price-prediction..git",
     "status": "completed",
     "category": "ML Projects"
   },
   {
-    "id": 11,
+    "id": 13,
     "title": "Netflix Analytics Dashboard",
-    "description": "★ Interactive analytics dashboard visualizing Netflix content trends ★ Genre distributions, release patterns, and regional content analysis ★ Dynamic filtering and drill-down capabilities across 8,000+ titles",
-    "techStack": ["Tableau", "Python", "Pandas", "Data Visualization"],
+    "description": "\u2605 Interactive analytics dashboard visualizing Netflix content trends \u2605 Genre distributions, release patterns, and regional content analysis \u2605 Dynamic filtering and drill-down capabilities across 8,000+ titles",
+    "techStack": [
+      "Tableau",
+      "Python",
+      "Pandas",
+      "Data Visualization"
+    ],
     "impact": "Comprehensive visual analysis of 8,000+ Netflix titles with interactive filters.",
     "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/Netflix_17762279736550/Netflix",
     "status": "completed",
     "category": "Viz Projects"
   },
   {
-    "id": 12,
+    "id": 14,
     "title": "Student Engagement and Interest Dashboard",
-    "description": "★ Interactive Tableau dashboard analyzing student engagement across academic, social, navigation, and wellness categories ★ Dynamic filtering, KPI tracking, and subcategory insights ★ Data-driven decision-making for student programs",
-    "techStack": ["Tableau", "Data Visualization", "EDA", "Dashboard Design"],
+    "description": "\u2605 Interactive Tableau dashboard analyzing student engagement across academic, social, navigation, and wellness categories \u2605 Dynamic filtering, KPI tracking, and subcategory insights \u2605 Data-driven decision-making for student programs",
+    "techStack": [
+      "Tableau",
+      "Data Visualization",
+      "EDA",
+      "Dashboard Design"
+    ],
     "impact": "Analyzed 300+ student responses, identifying high-engagement categories and enabling actionable insights for student programs and planning.",
     "github": "https://public.tableau.com/app/profile/abhiramvarma/viz/StudentEngagementInterestDashboard/StudentEngagementInterestDashboard",
     "status": "completed",
