@@ -1,9 +1,10 @@
 import { useEffect, useState } from 'react';
-import { motion, useSpring } from 'framer-motion';
+import { motion, useMotionValue, useSpring } from 'framer-motion';
 
 export default function ScrollProgress() {
   const [progress, setProgress] = useState(0);
-  const scaleX = useSpring(0, { stiffness: 120, damping: 28 });
+  const progressMv = useMotionValue(0);
+  const scaleX = useSpring(progressMv, { stiffness: 120, damping: 28 });
 
   useEffect(() => {
     const onScroll = () => {
@@ -11,12 +12,12 @@ export default function ScrollProgress() {
       const total = doc.scrollHeight - doc.clientHeight;
       const p = total > 0 ? doc.scrollTop / total : 0;
       setProgress(p);
-      scaleX.set(p);
+      progressMv.set(p);
     };
     onScroll();
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
-  }, [scaleX]);
+  }, [progressMv]);
 
   return (
     <>
