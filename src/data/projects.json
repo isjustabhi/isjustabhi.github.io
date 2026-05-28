@@ -1,5 +1,58 @@
 [
   {
+    "id": 15,
+    "title": "Lumen — Your Focus Alive",
+    "description": "Browser-only focus app where every session grows a living 3D island that responds to your attention. Trees from past sessions, flowers from quiet minutes, weather that shifts when focus drifts — intrinsic motivation without guilt timers or red streaks.",
+    "techStack": ["React 18", "TypeScript", "Three.js", "React Three Fiber", "Drei", "Tailwind CSS", "Framer Motion", "Zustand", "Tone.js"],
+    "impact": "CodeStorm 2026 hackathon project — turns discipline into a place you want to return to, inspired by Monument Valley and Alto's Odyssey.",
+    "github": "https://lumen-your-focus-alive.vercel.app/",
+    "repo": "https://github.com/isjustabhi/Lumen--Your-Focus-Alive",
+    "status": "production",
+    "category": "AI-Powered Apps",
+    "featured": true,
+    "year": 2026,
+    "badge": "CodeStorm 2026"
+  },
+  {
+    "id": 17,
+    "title": "HealthMate — AI Wellness Assistant",
+    "description": "Full-stack wellness app combining health metrics tracking, AI symptom checking with severity assessment, composite 0–100 health scores, and personalized insights from your data — built for the ML Empowerment Build Challenge.",
+    "techStack": ["Next.js 14", "React 18", "Node.js", "Express", "Supabase", "Gemini 1.5 Flash", "Recharts", "JWT"],
+    "impact": "Tracks weight, sleep, exercise, and mood with line/bar/area charts and Gemini-powered recommendations — not medical advice, always consult a professional.",
+    "github": "https://github.com/isjustabhi/healthmate",
+    "status": "production",
+    "category": "AI-Powered Apps",
+    "featured": true,
+    "year": 2026,
+    "badge": "ML Build Challenge"
+  },
+  {
+    "id": 18,
+    "title": "ReviewIQ — AI Review Intelligence",
+    "description": "AI-powered platform that ingests product and service reviews, surfaces sentiment trends, clusters themes, and delivers actionable summaries for faster product decisions.",
+    "techStack": ["React", "TypeScript", "Node.js", "OpenAI API", "Tailwind CSS", "Vite"],
+    "impact": "Turns noisy review streams into structured intelligence dashboards for teams and founders.",
+    "github": "https://review-iq-smoky.vercel.app/",
+    "repo": "https://github.com/isjustabhi/ReviewIQ",
+    "status": "production",
+    "category": "AI-Powered Apps",
+    "featured": true,
+    "year": 2026
+  },
+  {
+    "id": 19,
+    "title": "AI Interview System",
+    "description": "End-to-end AI interview coach with adaptive questioning, real-time feedback, and session analytics — practice technical and behavioral rounds with an intelligent interviewer.",
+    "techStack": ["React", "TypeScript", "OpenAI API", "Vite", "Tailwind CSS"],
+    "impact": "Helps candidates rehearse interviews with structured scoring and improvement tips after each session.",
+    "github": "https://ai4-interview.vercel.app/",
+    "repo": "https://github.com/isjustabhi/Ai-Interview-system",
+    "status": "production",
+    "category": "AI-Powered Apps",
+    "featured": true,
+    "year": 2026
+  },
+  {
     "id": 1,
     "title": "DataLoom \u2014 AI Data Pipeline Studio",
     "description": "\u2605 Transforms raw CSV/Excel files into production-ready analytics in 4 stages: Ingest \u2192 Refine \u2192 Enrich \u2192 Deploy \u2605 AI auto-profiles data quality, detects and fixes nulls, type mismatches and outliers \u2605 Generates KPIs with interactive charts and extracts business insights with anomaly detection \u2605 Exports clean datasets with PySpark pipeline code \u2605 Real-time progress tracking, transformation timeline, and one-click exports",

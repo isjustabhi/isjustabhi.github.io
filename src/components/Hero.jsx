@@ -1,6 +1,14 @@
 import { motion } from 'framer-motion';
-import { ChevronDown, MapPin, Sparkles, ArrowRight } from 'lucide-react';
+import { ChevronDown, MapPin, Sparkles, ArrowRight, Code2 } from 'lucide-react';
 import profile from '../data/profile.json';
+import { useTypewriter } from '../hooks/useTypewriter';
+
+const rotatingRoles = [
+  'Data Scientist',
+  'AI Engineer',
+  'NLP Researcher',
+  'Full-Stack Builder',
+];
 
 const glitchVariants = {
   hidden: { opacity: 0, y: 40, filter: 'blur(10px)' },
@@ -8,6 +16,8 @@ const glitchVariants = {
 };
 
 export default function Hero() {
+  const typedRole = useTypewriter(rotatingRoles);
+
   return (
     <section id="hero" className="relative min-h-screen flex items-center justify-center grid-bg overflow-hidden scan-line">
       {/* Orbs */}
@@ -43,15 +53,19 @@ export default function Hero() {
         {/* Name */}
         <motion.h1 variants={glitchVariants} initial="hidden" animate="visible" transition={{ duration: 0.8, delay: 0.2 }} className="font-[Orbitron] text-5xl sm:text-7xl lg:text-8xl font-black tracking-tight mb-5 leading-[0.95]">
           <span className="block text-white drop-shadow-[0_0_30px_rgba(255,255,255,0.1)]">{profile.name.split(' ')[0]}</span>
-          <span className="block mt-2 bg-gradient-to-r from-neon-cyan via-neon-purple to-neon-pink bg-clip-text text-transparent drop-shadow-[0_0_40px_rgba(0,240,255,0.2)]">
+          <span className="block mt-2 text-gradient-animated drop-shadow-[0_0_40px_rgba(0,240,255,0.2)]">
             {profile.name.split(' ').slice(1).join(' ')}
           </span>
         </motion.h1>
 
         {/* Role */}
-        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.6 }} className="flex items-center justify-center gap-2.5 mb-5">
-          <Sparkles size={18} className="text-neon-cyan animate-pulse" />
-          <p className="text-lg sm:text-xl text-text-muted font-light tracking-widest uppercase" style={{ fontFamily: 'Orbitron' }}>{profile.role}</p>
+        <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.6 }} className="flex items-center justify-center gap-2.5 mb-5 min-h-[2.5rem]">
+          <Sparkles size={18} className="text-neon-cyan animate-pulse shrink-0" />
+          <p className="text-lg sm:text-2xl font-light tracking-widest uppercase" style={{ fontFamily: 'Orbitron' }}>
+            <span className="text-text-muted/60">I build as a </span>
+            <span className="text-neon-cyan neon-text">{typedRole}</span>
+            <span className="text-neon-cyan animate-pulse">|</span>
+          </p>
         </motion.div>
 
         {/* Location */}
@@ -73,6 +87,15 @@ export default function Hero() {
             </span>
           </a>
           <a href="#contact" className="px-10 py-4 rounded-2xl font-semibold text-sm glass border border-neon-cyan/15 text-neon-cyan hover:bg-neon-cyan/[0.08] hover:border-neon-cyan/40 hover:shadow-[0_0_30px_rgba(0,240,255,0.15)] transition-all duration-400">Get in Touch</a>
+          <a
+            href={profile.github}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-10 py-4 rounded-2xl font-semibold text-sm glass border border-white/10 text-text-muted hover:text-white hover:border-white/20 transition-all duration-400 inline-flex items-center gap-2"
+          >
+            <Code2 size={16} className="text-neon-purple" />
+            GitHub
+          </a>
         </motion.div>
       </div>
 
