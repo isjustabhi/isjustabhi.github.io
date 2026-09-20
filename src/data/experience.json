@@ -1,38 +1,48 @@
 [
   {
     "id": 1,
-    "role": "Data Analyst / Graduate Assistant",
-    "company": "University of Arizona — Housing & Residential Life",
-    "location": "Tucson, AZ",
-    "period": "Aug 2025 — Present",
-    "description": "Designing 15+ interactive Tableau dashboards for real-time analytics across Housing, Campus Health, and Dean of Students. Built automated pipelines reducing manual effort by 60%, engineered ETL workflows processing 250K+ records, and partner with senior leadership on data-driven institutional planning.",
-    "highlights": ["Tableau Server", "ETL Pipelines", "Python & SQL", "Leadership Analytics"]
+    "role": "Scientific Analyst — Data Science",
+    "company": "The University of Arizona Psychology Department · LSCH",
+    "location": "Tucson, AZ · Remote",
+    "period": "Jul 2026 — Present",
+    "description": "Data Scientist in the Laboratory for Social Connectedness & Health under Professor David A. Sbarra. Building AI-driven methods, reproducible research workflows, and computational tools that support behavioral and health research — including trustworthy AI systems that accelerate scientific discovery.",
+    "highlights": ["Behavioral Health AI", "LLM Pipelines", "Statistical Modeling", "Research Infrastructure"],
+    "link": "https://psychology.arizona.edu/person/abhiram-nandimandalam"
   },
   {
     "id": 2,
-    "role": "Healthcare Data Analyst Intern",
-    "company": "University of Arizona — Campus Health Services",
-    "location": "Tucson, AZ",
-    "period": "May 2025 — Aug 2025",
-    "description": "Designed comprehensive Power BI dashboard suite covering Demographics, Mental Health, AOD, Physical Health, Sexual Health, and Utilization analytics. Built end-to-end data pipelines from raw CSV to production dashboards published to the Campus Health website.",
-    "highlights": ["Power BI", "Healthcare Analytics", "Data Modeling", "Production Dashboards"]
+    "role": "Graduate Assistant — Data Science",
+    "company": "University of Arizona — Housing & Residential Life",
+    "location": "Tucson, AZ · On-site",
+    "period": "Aug 2025 — May 2026",
+    "description": "Supported Organizational Assessment & Strategic Planning with data-driven assessment, analytics, and strategic initiatives. Designed interactive Tableau dashboards and automated pipelines that reduced manual reporting effort and informed campus leadership decisions.",
+    "highlights": ["Tableau Server", "ETL Pipelines", "Python & SQL", "Institutional Analytics"]
   },
   {
     "id": 3,
-    "role": "Graduate Research Assistant (AI / NLP)",
-    "company": "University of Arizona — PRISM Lab",
-    "location": "Tucson, AZ",
-    "period": "Jan 2025 — Aug 2025",
-    "description": "Developed RAG-based full-stack application using LLMs, OpenAI embeddings, and FAISS for semantic search. Leveraged 70B-parameter LLMs for zero-shot knowledge extraction. Collaborated with Intel researchers and co-authored publication on LLM-assisted hardware vulnerability discovery.",
-    "highlights": ["RAG / LLMs", "FAISS", "Intel Collaboration", "Published Research"]
+    "role": "Data Analyst",
+    "company": "University of Arizona — Campus Health Services",
+    "location": "Tucson, AZ · On-site",
+    "period": "May 2025 — Aug 2025",
+    "description": "Designed a comprehensive Power BI dashboard suite covering Demographics, Mental Health, AOD, Physical Health, Sexual Health, and Utilization analytics. Built end-to-end pipelines from raw data to production dashboards for Campus Health.",
+    "highlights": ["Power BI", "Healthcare Analytics", "Data Modeling", "Production Dashboards"]
   },
   {
     "id": 4,
-    "role": "Data Analyst",
-    "company": "MeeBuddy — Rural India's Digital Buddy",
-    "location": "Remote",
-    "period": "Jan 2023 — Aug 2024",
-    "description": "Performed EDA on user engagement and service adoption using Python and SQL. Built Tableau dashboards tracking KPIs across rural user segments. Analyzed regional demand patterns during COVID-19 to enable targeted service expansion in underserved communities.",
-    "highlights": ["EDA & Python", "Tableau Dashboards", "Rural Tech", "COVID-19 Analysis"]
+    "role": "Graduate Research Assistant (AI / NLP)",
+    "company": "University of Arizona — PRISM Lab / College of Information Science",
+    "location": "Tucson, AZ · Hybrid",
+    "period": "Jan 2025 — Aug 2025",
+    "description": "Contributed to LLM-HyPZ: an LLM-assisted pipeline mining hardware vulnerabilities from 114,000+ CVE entries. Supported data preprocessing, pipeline organization, RAG workflows, and experimental coordination. Work accepted at ICDM 2025 LLM4Sec Workshop and contributed to MITRE’s 2025 Most Important Hardware Weaknesses initiative.",
+    "highlights": ["RAG / LLMs", "FAISS", "CVE Mining", "ICDM 2025"]
+  },
+  {
+    "id": 5,
+    "role": "Machine Learning Researcher",
+    "company": "National Institute of Technology Puducherry",
+    "location": "Karaikal, Puducherry, India · On-site",
+    "period": "Jan 2024 — Aug 2024",
+    "description": "Conducted ML research with a focus on applied modeling, feature engineering, and experimental evaluation for real-world prediction and classification tasks.",
+    "highlights": ["Machine Learning", "Research Methods", "Python", "Experiment Design"]
   }
 ]

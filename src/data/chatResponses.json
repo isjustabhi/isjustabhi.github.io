@@ -1,61 +1,48 @@
 {
-  "greeting": "Hey! I'm Abhi's AI assistant. Ask me anything about his work, skills, or experience. Try clicking one of the suggestions below!",
-  "fallback": "That's an interesting question! I don't have a specific answer for that, but feel free to ask about Abhi's skills, projects, experience, or background. You can also reach out directly via the contact section!",
+  "greeting": "Ask about Abhi's role at LSCH, publications, projects, or research interests in data science, psychology, and health.",
+  "fallback": "Try asking about experience, publications, projects, or how to get in touch — abhivn.connect@gmail.com.",
   "responses": [
     {
       "keywords": ["who", "about", "tell me", "introduce", "yourself", "abhi", "abhiram"],
-      "answer": "I'm Abhiram Varma — a Data Scientist and AI Engineer based in Tucson, AZ. I specialize in building intelligent systems using Machine Learning, NLP, and Large Language Models. Currently, I'm a Graduate Data Scientist and AI/NLP Research Assistant at the University of Arizona, working on RAG systems and LLM applications. I love turning complex data into real-world impact! 🚀"
+      "answer": "I'm **Abhiram Varma Nandimandalam** — Data Scientist at the University of Arizona in the Laboratory for Social Connectedness & Health (LSCH). My profile sits at **Data Science × Bioinformatics × Psychology × Health**. I'm also an **AI enthusiast** focused on **reproducible AI workflows**, LLM pipelines, and trustworthy research tooling."
     },
     {
-      "keywords": ["project", "projects", "built", "build", "portfolio", "work", "app"],
-      "answer": "Here are my latest and flagship projects:\n\n🚀 **2026 Recent:**\n• **Lumen** — 3D focus island that grows with your sessions (CodeStorm 2026)\n• **HealthMate** — AI wellness tracking + symptom checker\n• **ReviewIQ** — AI review intelligence dashboard\n• **AI Interview System** — Adaptive interview coach\n\n🤖 **AI-Powered Apps:** DataLoom, SleepLens, TriageLens, Drift, DiaBuddy AI, Bio Scholar AI, and more.\n\n📊 **ML & Viz:** Parkinson's detection, skin disease classification, Netflix & student engagement dashboards.\n\nScroll to **Recent Spotlight** or **All Projects** on this page!"
+      "keywords": ["reproducible", "workflow", "enthusiast", "llm", "rag", "pipeline", "generative"],
+      "answer": "I care about **reproducible AI workflows** — documented LLM/RAG pipelines, shareable research tooling, and analytical systems others can rerun and trust. That pairs with my LSCH work building AI-driven methods for behavioral and health research."
     },
     {
-      "keywords": ["skill", "skills", "tech", "technology", "stack", "tools", "know"],
-      "answer": "My tech toolkit includes:\n\n💻 **Languages:** Python, SQL, R, JavaScript\n🧠 **AI/ML:** Machine Learning, NLP, LLMs, RAG, Deep Learning\n🌐 **Web:** React, Flask, FastAPI\n📊 **Visualization:** Tableau, Power BI, D3.js\n☁️ **Cloud & DevOps:** AWS, Docker\n\nI'm always learning and adding new tools to my arsenal!"
+      "keywords": ["biology"],
+      "answer": "I don't position my work under a 'Biology' headline. My framing is **Data Science, Bioinformatics, Psychology, and Health** — including social connectedness, behavior, genomics, and epigenetics as research interests."
     },
     {
-      "keywords": ["experience", "work", "job", "career", "history", "resume"],
-      "answer": "Here's my journey so far:\n\n🎓 **Graduate Data Scientist** @ University of Arizona (2023–Present) — Leading ML pipelines and research.\n\n🔬 **AI/NLP Research Assistant** @ University of Arizona (2023–Present) — Working on RAG systems and LLM fine-tuning.\n\n📈 **Data Analyst Intern** (2022–2023) — Built automated dashboards and data quality frameworks.\n\n📊 **Data Analyst** @ MeeBuddy (2021–2022) — Built analytics infrastructure from the ground up.\n\nCheck the Experience section for more details!"
+      "keywords": ["social", "connectedness", "loneliness", "relationship", "lsch"],
+      "answer": "I'm a Scientific Analyst / Data Scientist in **LSCH** (Laboratory for Social Connectedness & Health) under Prof. David A. Sbarra, building AI methods and analytical infrastructure for behavioral and health research. Social connectedness themes are an important interdisciplinary interest."
     },
     {
-      "keywords": ["education", "university", "degree", "study", "school", "college"],
-      "answer": "I'm currently pursuing my graduate studies at the **University of Arizona** in Tucson, AZ, focusing on Data Science and AI. My academic work centers on NLP, Large Language Models, and Retrieval-Augmented Generation systems. I combine rigorous academic research with hands-on engineering to push the boundaries of what's possible with AI. 🎓"
+      "keywords": ["dna", "methyl", "methylation", "epigenetic", "genomic", "omics", "bioinformatics"],
+      "answer": "**Genomics, epigenetics, and DNA methylation** appear on this site as **areas of interest**, alongside bioinformatics — not as fabricated job titles. My documented work emphasizes data science, ML/NLP, and health/behavioral research infrastructure."
     },
     {
-      "keywords": ["contact", "reach", "email", "hire", "connect", "message"],
-      "answer": "I'd love to connect! You can reach me through:\n\n📧 **Email:** Check the contact section below\n💼 **LinkedIn:** linkedin.com/in/isjustabhi\n🐙 **GitHub:** github.com/isjustabhi\n\nScroll down to the Contact section or click the links in the navigation. Let's build something awesome together! 🤝"
+      "keywords": ["scholar", "citation", "orcid", "ieee", "arxiv", "publication", "paper"],
+      "answer": "Publications include **LLM-HyPZ** (arXiv / ICDM 2025 LLM4Sec) and an **IEEE** paper on multi-class skin disease classification. Also: Google Scholar (~12 citations) and ORCID."
     },
     {
-      "keywords": ["ai", "machine learning", "ml", "nlp", "llm", "rag", "model"],
-      "answer": "AI/ML is my core passion! I specialize in:\n\n🧠 **NLP & LLMs** — Working with transformers, fine-tuning models, and building RAG systems.\n📊 **Machine Learning** — Predictive modeling, anomaly detection, classification, and clustering.\n🔍 **RAG Systems** — Building retrieval-augmented generation pipelines for domain-specific knowledge.\n\nI've built production RAG apps like **DiaBuddy AI** (medical) and **Bio Scholar AI** (biomedical research)!"
+      "keywords": ["project", "projects", "work", "kiosk"],
+      "answer": "Projects include Rural Health Kiosk (Co-Lab Award 2026), Lumen, HealthMate, ReviewIQ, DataLoom, and more — all listed under Work with original descriptions and links."
     },
     {
-      "keywords": ["diabuddy", "diabetes", "health", "medical"],
-      "answer": "**DiaBuddy AI** is one of my flagship projects! It's a full-stack diabetes management companion featuring:\n\n📊 Glucose, food, activity & medication tracking\n🤖 RAG-powered AI chat grounded in ADA/NIH/CDC guidelines\n📈 Dashboards with trend charts, time-in-range & estimated A1C\n💡 Personalized health insights\n\nBuilt with React, Supabase, pgvector, and Gemini AI. Check it out in the Projects section!"
+      "keywords": ["experience", "job", "career", "scientific"],
+      "answer": "Current: Scientific Analyst — Data Science @ UA Psychology / LSCH. Prior: Housing GA, Campus Health analyst, PRISM GRA (ICDM 2025), NIT Puducherry ML researcher."
     },
     {
-      "keywords": ["bio scholar", "biomedical", "research", "paper", "pubmed"],
-      "answer": "**Bio Scholar AI** is a biomedical research assistant I built for querying scientific literature. Key features:\n\n📄 Paper summarizer — paste a PubMed PMID/URL for structured summaries\n🔍 RAG-powered search across biomedical literature\n📋 Key findings, methods, clinical relevance extraction\n🧬 Built for researchers exploring genetic risk factors, disease mechanisms & more!"
-    },
-    {
-      "keywords": ["parkinson", "disease", "detection", "diagnosis"],
-      "answer": "My **Parkinson's Disease Detection** project uses machine learning to support early diagnosis. It implements classification models with feature engineering on biomedical signal data, achieving high accuracy for early-stage detection. Built with Python, Scikit-learn, XGBoost, and thorough data analysis."
-    },
-    {
-      "keywords": ["netflix", "dashboard", "tableau", "visualization", "viz"],
-      "answer": "My **Netflix Dashboard** is an interactive Tableau visualization analyzing 8,000+ Netflix titles. It covers content trends, genre distributions, release patterns, and regional analysis with dynamic filtering. I also built a **Real-Time Sentiment Dashboard** tracking 50K+ social media data points daily with 92% accuracy!"
-    },
-    {
-      "keywords": ["hobby", "hobbies", "fun", "free time", "interest", "outside"],
-      "answer": "When I'm not training models or writing code, you'll find me:\n\n🎮 Exploring new tech and side projects\n📚 Reading about the latest in AI research\n🏔️ Enjoying the beautiful Arizona outdoors\n☕ Fueling up on coffee while brainstorming ideas\n\nI'm a lifelong learner who believes in the intersection of curiosity and creativity!"
+      "keywords": ["contact", "email", "hire", "connect", "linkedin"],
+      "answer": "abhivn.connect@gmail.com · linkedin.com/in/isjustabhi · github.com/isjustabhi · Scholar / ORCID / UA Psychology staff page."
     }
   ],
   "suggestions": [
     "Who are you?",
-    "Show projects",
-    "What skills do you have?",
-    "Tell me about DiaBuddy AI",
-    "What AI/ML work do you do?"
+    "LSCH / social connectedness?",
+    "Publications?",
+    "Show projects"
   ]
 }

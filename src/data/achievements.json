@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "title": "Spring 2026 Distinguished Graduate Scholar",
+    "org": "U of A College of Information Science",
+    "year": "2026",
+    "description": "Recognized for outstanding academic achievement, research, and contribution to information science."
+  },
+  {
+    "id": 2,
+    "title": "Co-Lab Award — Graduate Capstone",
+    "org": "iShowcase Spring 2026 · Applied Research & Industry Impact",
+    "year": "2026",
+    "description": "Team award for Rural Health Kiosk — an AI healthcare platform bringing voice, text, and avatar care to rural communities."
+  },
+  {
+    "id": 3,
+    "title": "ICDM 2025 LLM4Sec Workshop",
+    "org": "LLM-HyPZ · Hardware Vulnerability Discovery",
+    "year": "2025",
+    "description": "Co-authored work on LLM-assisted mining of 114K+ CVEs contributing to MITRE’s hardware weakness initiatives."
+  },
+  {
+    "id": 4,
+    "title": "M.S. Data Science · 4.0 GPA",
+    "org": "University of Arizona · NLP Certificate",
+    "year": "2024–2026",
+    "description": "Graduate training in ML, deep learning / statistical NLP, data engineering, experimental design, and data ethics."
+  },
+  {
+    "id": 5,
+    "title": "Microsoft Certified: Power BI Data Analyst Associate",
+    "org": "Microsoft · Credly",
+    "year": "Verified",
+    "description": "Verified achievement for Power BI analytics and dashboarding."
+  },
+  {
+    "id": 6,
+    "title": "Google Data Analytics Certificate",
+    "org": "Coursera · Credly",
+    "year": "Verified",
+    "description": "End-to-end data analytics credential covering prep, analysis, and visualization."
+  }
+]

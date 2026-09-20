@@ -1,175 +1,109 @@
-import { useState, useMemo } from 'react';
+import { useMemo, useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { ExternalLink, Code2, Zap, ChevronRight, Sparkles, BarChart3, Brain, Layers } from 'lucide-react';
+import { ArrowUpRight, ExternalLink, Code2 } from 'lucide-react';
 import projects from '../data/projects.json';
-import { useInView } from '../hooks/useInView';
 
-const categories = ['All', 'Recent', 'AI-Powered Apps', 'ML Projects', 'Viz Projects'];
-
-const catGradients = {
-  'AI-Powered Apps': 'from-neon-cyan to-neon-purple',
-  'ML Projects': 'from-neon-green to-neon-cyan',
-  'Viz Projects': 'from-neon-orange to-neon-pink',
-};
-const catIcons = {
-  'AI-Powered Apps': Brain,
-  'ML Projects': Sparkles,
-  'Viz Projects': BarChart3,
-};
-const statusCfg = {
-  production: { label: 'Live', cls: 'bg-neon-green/15 text-neon-green border-neon-green/25 shadow-[0_0_12px_rgba(52,211,153,0.15)]' },
-  research: { label: 'Research', cls: 'bg-neon-purple/15 text-neon-purple border-neon-purple/25' },
-  completed: { label: 'Completed', cls: 'bg-neon-cyan/15 text-neon-cyan border-neon-cyan/25' },
-};
-
-function ProjectCard({ project, index }) {
-  const [ref, inView] = useInView(0.1);
-  const status = statusCfg[project.status] || statusCfg.completed;
-  const gradient = catGradients[project.category] || 'from-neon-cyan to-neon-purple';
-  const Icon = catIcons[project.category] || Layers;
-  const isLiveApp = project.github && !project.github.includes('github.com');
-  const repoUrl = project.repo || (project.github?.includes('github.com') ? project.github : null);
-
-  return (
-    <motion.div
-      ref={ref}
-      initial={{ opacity: 0, y: 50 }}
-      animate={inView ? { opacity: 1, y: 0 } : {}}
-      transition={{ duration: 0.5, delay: index * 0.06 }}
-      layout
-      className="group relative"
-    >
-      <div className="relative glass rounded-2xl overflow-hidden gradient-border h-full flex flex-col holo-shimmer">
-        <div className={`h-[3px] bg-gradient-to-r ${gradient}`} />
-
-        <div className="p-6 flex flex-col flex-1">
-          <div className="flex items-start justify-between mb-4 gap-2">
-            <div className="flex items-center gap-3 min-w-0">
-              <motion.div
-                whileHover={{ rotate: 180, scale: 1.1 }}
-                transition={{ duration: 0.4 }}
-                className="w-11 h-11 rounded-xl bg-gradient-to-br from-neon-cyan/10 to-neon-purple/10 flex items-center justify-center border border-neon-cyan/10 group-hover:border-neon-cyan/30 group-hover:shadow-[0_0_15px_rgba(0,240,255,0.15)] transition-all duration-300 shrink-0"
-              >
-                <Icon size={20} className="text-neon-cyan" />
-              </motion.div>
-              <div className="min-w-0">
-                <h3 className="text-lg font-bold text-white group-hover:text-neon-cyan transition-colors duration-300 truncate">{project.title}</h3>
-                <span className="text-[11px] text-text-muted font-mono">
-                  {project.category}
-                  {project.year ? ` · ${project.year}` : ''}
-                </span>
-              </div>
-            </div>
-            <div className="flex flex-col items-end gap-1 shrink-0">
-              <span className={`text-[10px] px-3 py-1 rounded-full border font-semibold tracking-wider ${status.cls}`}>{status.label}</span>
-              {project.badge && (
-                <span className="text-[9px] px-2 py-0.5 rounded-full bg-neon-purple/10 text-neon-purple border border-neon-purple/20 font-mono">
-                  {project.badge}
-                </span>
-              )}
-            </div>
-          </div>
-
-          <p className="text-sm text-text-muted leading-relaxed mb-4 flex-1 line-clamp-4">{project.description}</p>
-
-          <div className="flex items-start gap-2 mb-4 p-3 rounded-xl bg-neon-cyan/[0.04] border border-neon-cyan/10 group-hover:border-neon-cyan/20 transition-colors">
-            <Zap size={14} className="text-neon-cyan mt-0.5 shrink-0" />
-            <p className="text-xs text-neon-cyan/80 leading-relaxed line-clamp-2">{project.impact}</p>
-          </div>
-
-          <div className="flex flex-wrap gap-1.5 mb-5">
-            {project.techStack.slice(0, 8).map(tech => (
-              <span key={tech} className="text-[10px] px-2.5 py-1 rounded-lg bg-white/[0.04] text-text-muted border border-white/[0.06] hover:border-neon-cyan/25 hover:text-neon-cyan/90 hover:bg-neon-cyan/[0.04] transition-all duration-200 cursor-default">{tech}</span>
-            ))}
-          </div>
-
-          <div className="flex flex-wrap gap-3 mt-auto">
-            <a
-              href={project.github}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 text-sm font-medium text-text-muted hover:text-neon-cyan transition-all duration-200 group/link py-2 px-3 -mx-3 rounded-lg hover:bg-neon-cyan/[0.05]"
-            >
-              {isLiveApp ? <ExternalLink size={15} /> : <Code2 size={15} />}
-              <span>{isLiveApp ? 'View Live' : 'GitHub'}</span>
-              <ChevronRight size={14} className="group-hover/link:translate-x-1.5 transition-transform" />
-            </a>
-            {repoUrl && isLiveApp && (
-              <a
-                href={repoUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 text-sm font-medium text-text-muted hover:text-neon-purple transition-all duration-200 py-2 px-3 rounded-lg hover:bg-neon-purple/[0.05]"
-              >
-                <Code2 size={15} />
-                <span>Source</span>
-              </a>
-            )}
-          </div>
-        </div>
-      </div>
-    </motion.div>
-  );
-}
+const filters = ['All', 'Recent', 'AI-Powered Apps', 'ML Projects', 'Viz Projects'];
 
 export default function Projects() {
-  const [ref, inView] = useInView(0.05);
   const [active, setActive] = useState('All');
-
   const sorted = useMemo(
-    () => [...projects].sort((a, b) => (b.year || 0) - (a.year || 0) || b.id - a.id),
-    []
+    () => [...projects].sort((a, b) => (b.featured ? 1 : 0) - (a.featured ? 1 : 0) || (b.year || 0) - (a.year || 0)),
+    [],
   );
-
   const filtered = useMemo(() => {
     if (active === 'All') return sorted;
-    if (active === 'Recent') return sorted.filter((p) => p.year && p.year >= 2026);
+    if (active === 'Recent') return sorted.filter((p) => p.year >= 2026);
     return sorted.filter((p) => p.category === active);
   }, [active, sorted]);
 
   return (
-    <section id="projects" className="section-padding relative">
-      <div className="absolute top-1/3 left-0 w-[500px] h-[500px] bg-neon-purple/[0.04] rounded-full blur-[150px] pointer-events-none" />
-      <div className="absolute bottom-1/4 right-0 w-[400px] h-[400px] bg-neon-cyan/[0.03] rounded-full blur-[120px] pointer-events-none" />
-
-      <div ref={ref} className="max-w-6xl mx-auto relative z-10">
-        <motion.div initial={{ opacity: 0, y: 30 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.6 }} className="mb-10 text-center">
-          <h2 className="font-[Orbitron] text-3xl sm:text-4xl font-bold mb-2">
-            <span className="text-neon-cyan/30 text-lg mr-2 font-mono">03.</span>
-            All <span className="text-neon-cyan neon-text">Projects</span>
-          </h2>
-          <div className="w-24 h-[2px] bg-gradient-to-r from-transparent via-neon-cyan to-transparent mt-4 mx-auto" />
-          <p className="text-text-muted text-sm mt-5 max-w-lg mx-auto">
-            {projects.length}+ builds — AI apps, ML research, and data viz. Filter by category or browse 2026 work.
-          </p>
-        </motion.div>
-
-        <motion.div initial={{ opacity: 0, y: 15 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: 0.15 }} className="flex flex-wrap items-center justify-center gap-2 mb-12">
-          {categories.map(cat => (
-            <button
-              key={cat}
-              onClick={() => setActive(cat)}
-              className={`px-5 py-2.5 rounded-xl text-xs font-bold tracking-wider transition-all duration-300 border ${
-                active === cat
-                  ? 'bg-neon-cyan/10 text-neon-cyan border-neon-cyan/30 shadow-[0_0_20px_rgba(0,240,255,0.12)]'
-                  : 'bg-white/[0.02] text-text-muted border-white/[0.06] hover:border-white/15 hover:text-white/80'
-              }`}
-            >
-              {cat}
-            </button>
-          ))}
-        </motion.div>
+    <section id="projects" className="section-pad relative">
+      <div className="max-w-5xl mx-auto">
+        <div className="flex flex-col sm:flex-row sm:items-end sm:justify-between gap-4 mb-8">
+          <motion.h2
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="font-display text-3xl font-bold text-ink"
+          >
+            Projects
+          </motion.h2>
+          <div className="flex flex-wrap gap-2">
+            {filters.map((f) => (
+              <button
+                key={f}
+                type="button"
+                onClick={() => setActive(f)}
+                className={`px-3 py-1.5 text-xs rounded-lg border transition-colors ${
+                  active === f
+                    ? 'bg-cyan/15 text-cyan border-cyan/30'
+                    : 'border-line text-muted hover:text-ink hover:border-cyan/20'
+                }`}
+              >
+                {f}
+              </button>
+            ))}
+          </div>
+        </div>
 
         <AnimatePresence mode="wait">
           <motion.div
             key={active}
-            initial={{ opacity: 0, y: 25 }}
+            initial={{ opacity: 0, y: 12 }}
             animate={{ opacity: 1, y: 0 }}
-            exit={{ opacity: 0, y: -15 }}
-            transition={{ duration: 0.35 }}
-            className="grid md:grid-cols-2 gap-6"
+            exit={{ opacity: 0 }}
+            className="grid sm:grid-cols-2 gap-4"
           >
-            {filtered.map((p, i) => <ProjectCard key={p.id} project={p} index={i} />)}
+            {filtered.map((p, i) => {
+              const isLive = p.github && !p.github.includes('github.com');
+              return (
+                <motion.article
+                  key={p.id}
+                  initial={{ opacity: 0, y: 20 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: Math.min(i * 0.04, 0.24) }}
+                  whileHover={{ y: -4 }}
+                  className="fx-panel rounded-2xl p-5 flex flex-col group hover:border-cyan/30 transition-colors"
+                >
+                  <div className="flex items-start justify-between gap-2 mb-3">
+                    <div>
+                      <p className="text-[10px] font-mono text-cyan/60 uppercase tracking-wider">
+                        {p.category}{p.year ? ` · ${p.year}` : ''}
+                      </p>
+                      <h3 className="mt-1 font-display text-lg font-semibold text-ink group-hover:text-cyan transition-colors">
+                        {p.title}
+                      </h3>
+                    </div>
+                    <ArrowUpRight size={16} className="text-muted/40 group-hover:text-cyan shrink-0" />
+                  </div>
+                  <p className="text-sm text-muted leading-relaxed flex-1 line-clamp-3">{p.description}</p>
+                  {p.impact && (
+                    <p className="mt-3 text-xs text-green/80 line-clamp-2">{p.impact}</p>
+                  )}
+                  <div className="mt-3 flex flex-wrap gap-1">
+                    {p.techStack.slice(0, 4).map((t) => (
+                      <span key={t} className="text-[10px] px-1.5 py-0.5 rounded bg-bg-2 text-muted border border-line">
+                        {t}
+                      </span>
+                    ))}
+                  </div>
+                  <div className="mt-4 flex gap-3 text-xs">
+                    <a href={p.github} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-cyan hover:underline">
+                      {isLive ? <ExternalLink size={12} /> : <Code2 size={12} />}
+                      {isLive ? 'Demo' : 'Repo'}
+                    </a>
+                    {p.repo && isLive && (
+                      <a href={p.repo} target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-1 text-muted hover:text-cyan">
+                        <Code2 size={12} /> Source
+                      </a>
+                    )}
+                    {p.badge && <span className="ml-auto text-[10px] text-violet font-mono">{p.badge}</span>}
+                  </div>
+                </motion.article>
+              );
+            })}
           </motion.div>
         </AnimatePresence>
       </div>

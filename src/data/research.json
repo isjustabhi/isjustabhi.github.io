@@ -1,0 +1,16 @@
+{
+  "toolkit": [
+    {
+      "name": "AI & Data",
+      "items": ["Python", "R", "SQL", "Machine Learning", "LLMs / RAG", "NLP", "Reproducible AI Workflows", "Statistical Modeling"]
+    },
+    {
+      "name": "Analytics",
+      "items": ["Tableau", "Power BI", "ETL / Data Quality", "Causal Inference", "A/B Testing", "AWS"]
+    },
+    {
+      "name": "Domain",
+      "items": ["Bioinformatics", "Healthcare Analytics", "Behavioral Health Research", "Psychology (LSCH)"]
+    }
+  ]
+}

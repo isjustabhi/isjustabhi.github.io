@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "title": "LLM-HyPZ: Hardware Vulnerability Discovery using an LLM-Assisted Hybrid Platform for Zero-Shot Knowledge Extraction and Refinement",
+    "authors": "Yu-Zheng Lin, Sujan Ghimire, Abhiram Nandimandalam, et al.",
+    "year": "2025",
+    "venue": "IEEE International Conference on Data Mining (ICDM) · LLM4Sec Workshop · arXiv:2509.00647",
+    "href": "https://arxiv.org/abs/2509.00647"
+  },
+  {
+    "id": 2,
+    "title": "Multi-Class Skin Disease Classification: A Study of Transfer Learning Strategies for Deep Learning Models",
+    "authors": "Abhiram Nandimandalam et al.",
+    "year": "2024",
+    "venue": "IEEE Xplore",
+    "href": "https://ieeexplore.ieee.org/document/10627847"
+  }
+]

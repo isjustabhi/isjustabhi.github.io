@@ -1,5 +1,18 @@
 [
   {
+    "id": 20,
+    "title": "Rural Health Kiosk — Dr. Dexter",
+    "description": "AI-powered healthcare platform bringing accessible medical support to underserved and rural communities through voice, text, and real-time avatar interaction. Built on RAG, a fine-tuned MedGemma model, and Claude Opus — culturally sensitive symptom assessment, triage, and personalized care.",
+    "techStack": ["RAG", "MedGemma", "Claude Opus", "Python", "NLP", "Voice AI", "Avatar Interaction"],
+    "impact": "Co-Lab Award for Graduate Capstone – Applied Research & Industry Impact at U of A iShowcase Spring 2026.",
+    "github": "https://github.com/isjustabhi",
+    "status": "production",
+    "category": "AI-Powered Apps",
+    "featured": true,
+    "year": 2026,
+    "badge": "Co-Lab Award 2026"
+  },
+  {
     "id": 15,
     "title": "Lumen — Your Focus Alive",
     "description": "Browser-only focus app where every session grows a living 3D island that responds to your attention. Trees from past sessions, flowers from quiet minutes, weather that shifts when focus drifts — intrinsic motivation without guilt timers or red streaks.",
