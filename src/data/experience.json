@@ -1,47 +1,48 @@
 [
   {
     "id": 1,
-    "role": "Scientific Analyst — Data Science",
+    "role": "Scientific Analyst: Data Science",
     "company": "The University of Arizona Psychology Department · LSCH",
     "location": "Tucson, AZ · Remote",
-    "period": "Jul 2026 — Present",
-    "description": "Data Scientist in the Laboratory for Social Connectedness & Health under Professor David A. Sbarra. Building AI-driven methods, reproducible research workflows, and computational tools that support behavioral and health research — including trustworthy AI systems that accelerate scientific discovery.",
+    "period": "Jul 2026 to Present",
+    "description": "Data Scientist in the Laboratory for Social Connectedness & Health under Professor David A. Sbarra. Building AI-driven methods, reproducible research workflows, and computational tools that support behavioral and health research, including trustworthy AI systems that accelerate scientific discovery.",
     "highlights": ["Behavioral Health AI", "LLM Pipelines", "Statistical Modeling", "Research Infrastructure"],
     "link": "https://psychology.arizona.edu/person/abhiram-nandimandalam"
   },
   {
     "id": 2,
-    "role": "Graduate Assistant — Data Science",
-    "company": "University of Arizona — Housing & Residential Life",
+    "role": "Graduate Assistant: Data Science",
+    "company": "University of Arizona · Housing & Residential Life",
     "location": "Tucson, AZ · On-site",
-    "period": "Aug 2025 — May 2026",
+    "period": "Aug 2025 to May 2026",
     "description": "Supported Organizational Assessment & Strategic Planning with data-driven assessment, analytics, and strategic initiatives. Designed interactive Tableau dashboards and automated pipelines that reduced manual reporting effort and informed campus leadership decisions.",
     "highlights": ["Tableau Server", "ETL Pipelines", "Python & SQL", "Institutional Analytics"]
   },
   {
     "id": 3,
     "role": "Data Analyst",
-    "company": "University of Arizona — Campus Health Services",
+    "company": "University of Arizona · Campus Health Services",
     "location": "Tucson, AZ · On-site",
-    "period": "May 2025 — Aug 2025",
+    "period": "May 2025 to Aug 2025",
     "description": "Designed a comprehensive Power BI dashboard suite covering Demographics, Mental Health, AOD, Physical Health, Sexual Health, and Utilization analytics. Built end-to-end pipelines from raw data to production dashboards for Campus Health.",
     "highlights": ["Power BI", "Healthcare Analytics", "Data Modeling", "Production Dashboards"]
   },
   {
     "id": 4,
     "role": "Graduate Research Assistant (AI / NLP)",
-    "company": "University of Arizona — PRISM Lab / College of Information Science",
+    "company": "University of Arizona · MITHRA Lab / College of Information Science",
     "location": "Tucson, AZ · Hybrid",
-    "period": "Jan 2025 — Aug 2025",
+    "period": "Jan 2025 to Aug 2025",
     "description": "Contributed to LLM-HyPZ: an LLM-assisted pipeline mining hardware vulnerabilities from 114,000+ CVE entries. Supported data preprocessing, pipeline organization, RAG workflows, and experimental coordination. Work accepted at ICDM 2025 LLM4Sec Workshop and contributed to MITRE’s 2025 Most Important Hardware Weaknesses initiative.",
-    "highlights": ["RAG / LLMs", "FAISS", "CVE Mining", "ICDM 2025"]
+    "highlights": ["RAG / LLMs", "FAISS", "CVE Mining", "ICDM 2025"],
+    "link": "https://sites.arizona.edu/yasaei/people/"
   },
   {
     "id": 5,
     "role": "Machine Learning Researcher",
     "company": "National Institute of Technology Puducherry",
     "location": "Karaikal, Puducherry, India · On-site",
-    "period": "Jan 2024 — Aug 2024",
+    "period": "Jan 2024 to Aug 2024",
     "description": "Conducted ML research with a focus on applied modeling, feature engineering, and experimental evaluation for real-world prediction and classification tasks.",
     "highlights": ["Machine Learning", "Research Methods", "Python", "Experiment Design"]
   }

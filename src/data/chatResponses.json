@@ -1,18 +1,18 @@
 {
   "greeting": "Ask about Abhi's role at LSCH, publications, projects, or research interests in data science, psychology, and health.",
-  "fallback": "Try asking about experience, publications, projects, or how to get in touch — abhivn.connect@gmail.com.",
+  "fallback": "Try asking about experience, publications, projects, or how to get in touch, abhivn.connect@gmail.com.",
   "responses": [
     {
       "keywords": ["who", "about", "tell me", "introduce", "yourself", "abhi", "abhiram"],
-      "answer": "I'm **Abhiram Varma Nandimandalam** — Data Scientist at the University of Arizona in the Laboratory for Social Connectedness & Health (LSCH). My profile sits at **Data Science × Bioinformatics × Psychology × Health**. I'm also an **AI enthusiast** focused on **reproducible AI workflows**, LLM pipelines, and trustworthy research tooling."
+      "answer": "I'm **Abhiram Varma Nandimandalam**, Data Scientist at the University of Arizona in the Laboratory for Social Connectedness & Health (LSCH). My profile sits at **Data Science × Bioinformatics × Psychology × Health**. I'm also an **AI enthusiast** focused on **reproducible AI workflows**, LLM pipelines, and trustworthy research tooling."
     },
     {
       "keywords": ["reproducible", "workflow", "enthusiast", "llm", "rag", "pipeline", "generative"],
-      "answer": "I care about **reproducible AI workflows** — documented LLM/RAG pipelines, shareable research tooling, and analytical systems others can rerun and trust. That pairs with my LSCH work building AI-driven methods for behavioral and health research."
+      "answer": "I care about **reproducible AI workflows**, documented LLM/RAG pipelines, shareable research tooling, and analytical systems others can rerun and trust. That pairs with my LSCH work building AI-driven methods for behavioral and health research."
     },
     {
       "keywords": ["biology"],
-      "answer": "I don't position my work under a 'Biology' headline. My framing is **Data Science, Bioinformatics, Psychology, and Health** — including social connectedness, behavior, genomics, and epigenetics as research interests."
+      "answer": "I don't position my work under a 'Biology' headline. My framing is **Data Science, Bioinformatics, Psychology, and Health**, including social connectedness, behavior, genomics, and epigenetics as research interests."
     },
     {
       "keywords": ["social", "connectedness", "loneliness", "relationship", "lsch"],
@@ -20,23 +20,23 @@
     },
     {
       "keywords": ["dna", "methyl", "methylation", "epigenetic", "genomic", "omics", "bioinformatics"],
-      "answer": "**Genomics, epigenetics, and DNA methylation** appear on this site as **areas of interest**, alongside bioinformatics — not as fabricated job titles. My documented work emphasizes data science, ML/NLP, and health/behavioral research infrastructure."
+      "answer": "**Genomics, epigenetics, and DNA methylation** appear on this site as **areas of interest**, alongside bioinformatics, not as fabricated job titles. My documented work emphasizes data science, ML/NLP, and health/behavioral research infrastructure."
     },
     {
-      "keywords": ["scholar", "citation", "orcid", "ieee", "arxiv", "publication", "paper"],
-      "answer": "Publications include **LLM-HyPZ** (arXiv / ICDM 2025 LLM4Sec) and an **IEEE** paper on multi-class skin disease classification. Also: Google Scholar (~12 citations) and ORCID."
+      "keywords": ["scholar", "citation", "orcid", "credly", "researchgate", "research gate", "publication", "paper"],
+      "answer": "Find my work on **Google Scholar** (~12 citations), **ORCID**, **ResearchGate**, and badges on **Credly**. Publications include LLM-HyPZ and a multi-class skin disease classification paper, see the Publications section."
     },
     {
       "keywords": ["project", "projects", "work", "kiosk"],
-      "answer": "Projects include Rural Health Kiosk (Co-Lab Award 2026), Lumen, HealthMate, ReviewIQ, DataLoom, and more — all listed under Work with original descriptions and links."
+      "answer": "Projects include Rural Health Kiosk (Co-Lab Award 2026), Lumen, HealthMate, ReviewIQ, DataLoom, and more, all listed under Work with original descriptions and links."
     },
     {
       "keywords": ["experience", "job", "career", "scientific"],
-      "answer": "Current: Scientific Analyst — Data Science @ UA Psychology / LSCH. Prior: Housing GA, Campus Health analyst, PRISM GRA (ICDM 2025), NIT Puducherry ML researcher."
+      "answer": "Current: Scientific Analyst, Data Science @ UA Psychology / LSCH. Prior: Housing GA, Campus Health analyst, MITHRA Lab GRA (ICDM 2025), NIT Puducherry ML researcher."
     },
     {
-      "keywords": ["contact", "email", "hire", "connect", "linkedin"],
-      "answer": "abhivn.connect@gmail.com · linkedin.com/in/isjustabhi · github.com/isjustabhi · Scholar / ORCID / UA Psychology staff page."
+      "keywords": ["contact", "email", "hire", "connect", "linkedin", "credly"],
+      "answer": "abhivn.connect@gmail.com · linkedin.com/in/isjustabhi · github.com/isjustabhi · ResearchGate · Credly (credly.com/users/abhiramvarma) · Scholar / ORCID."
     }
   ],
   "suggestions": [

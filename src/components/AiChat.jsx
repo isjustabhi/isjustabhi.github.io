@@ -42,7 +42,7 @@ export default function AiChat() {
       <button
         type="button"
         onClick={() => setIsOpen(true)}
-        className={`fixed bottom-5 right-5 z-50 w-12 h-12 rounded-full btn-fx !p-0 justify-center ${isOpen ? 'hidden' : ''}`}
+        className={`fixed bottom-5 right-5 z-50 w-12 h-12 rounded-xl btn-fx !p-0 justify-center ${isOpen ? 'hidden' : ''}`}
         aria-label="Open chat"
       >
         <MessageCircle size={18} />
@@ -80,7 +80,12 @@ export default function AiChat() {
               {messages.length === 1 && (
                 <div className="flex flex-wrap gap-2">
                   {chatData.suggestions.map((s) => (
-                    <button key={s} type="button" onClick={() => sendMessage(s)} className="text-[11px] px-2.5 py-1 rounded-full border border-line text-muted hover:text-cyan hover:border-cyan/30">
+                    <button
+                      key={s}
+                      type="button"
+                      onClick={() => sendMessage(s)}
+                      className="text-[11px] px-2.5 py-1 rounded-md border border-line text-muted hover:text-cyan hover:border-cyan/30"
+                    >
                       {s}
                     </button>
                   ))}

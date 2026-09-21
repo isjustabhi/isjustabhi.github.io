@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { ArrowUpRight } from 'lucide-react';
 import profile from '../data/profile.json';
+import { Reveal, Stagger, itemVariants } from './Reveal';
 
 const ease = [0.22, 1, 0.36, 1];
 
@@ -8,35 +9,39 @@ export default function About() {
   return (
     <section id="about" className="section-pad relative">
       <div className="max-w-5xl mx-auto">
-        <motion.h2
-          initial={{ opacity: 0, y: 16 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.5, ease }}
-          className="font-display text-3xl font-bold text-ink mb-8"
-        >
-          About <span className="text-cyan">Me</span>
-        </motion.h2>
+        <Reveal>
+          <p className="section-label">01 / About</p>
+          <h2 className="font-display text-3xl sm:text-4xl font-semibold tracking-tight text-ink mb-8">
+            AI workflows for behavioral &amp; health research
+          </h2>
+        </Reveal>
 
         <motion.div
-          initial={{ opacity: 0, y: 20 }}
+          initial={{ opacity: 0, y: 24 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.55, ease }}
-          className="fx-panel fx-glow rounded-2xl p-6 sm:p-8"
+          transition={{ duration: 0.6, ease }}
+          className="fx-panel fx-glow rounded-2xl p-6 sm:p-8 relative overflow-hidden"
         >
-          <p className="text-ink-soft leading-relaxed">{profile.bio}</p>
+          <motion.div
+            className="absolute inset-y-0 left-0 w-1 bg-cyan origin-top"
+            initial={{ scaleY: 0 }}
+            whileInView={{ scaleY: 1 }}
+            viewport={{ once: true }}
+            transition={{ duration: 0.7, ease }}
+          />
+          <p className="text-ink-soft leading-relaxed text-[15px] sm:text-base pl-2">{profile.bio}</p>
 
-          <p className="mt-7 text-[11px] font-mono uppercase tracking-wider text-cyan/70 mb-3">Also exploring</p>
-          <div className="flex flex-wrap gap-2 mb-7">
+          <p className="mt-8 text-[11px] font-mono uppercase tracking-[0.14em] text-cyan/70 mb-3 pl-2">Also exploring</p>
+          <Stagger className="flex flex-wrap gap-2 mb-7 pl-2">
             {profile.interests.map((t) => (
-              <span key={t} className="text-xs px-2.5 py-1 rounded-full border border-line text-muted bg-bg-2">
+              <motion.span key={t} variants={itemVariants} className="chip">
                 {t}
-              </span>
+              </motion.span>
             ))}
-          </div>
+          </Stagger>
 
-          <div className="flex flex-wrap gap-x-4 gap-y-2 pt-5 border-t border-line">
+          <div className="flex flex-wrap gap-x-5 gap-y-2 pt-5 border-t border-line pl-2">
             {profile.links.map((l) => (
               <a key={l.label} href={l.href} target="_blank" rel="noopener noreferrer" className="link-arrow text-sm">
                 {l.label} <ArrowUpRight size={12} />
